@@ -38,6 +38,16 @@ module.exports = {
           ],
         }),
       },
+      {
+        test: /\.scss$/,
+        use: ExtractTextPlugin.extract({
+          use: [
+            { loader: 'css-loader', options: { importLoaders: 2 } },
+            'postcss-loader',
+            'sass-loader',
+          ],
+        }),
+      },
     ],
   },
   plugins: [
