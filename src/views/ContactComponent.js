@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default () => {
+const ContactComponent = ({ fields }) => {
   return (
     <div>
       <text style={{fontSize: 200}}>CONTACT</text>
     </div>
   )
 }
+
+export default ContactComponent

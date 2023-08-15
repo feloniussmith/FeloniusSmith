@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HomeComponent({ fields }) {
+const HomeComponent = ({ fields }) => {
   const { title } = fields
   return (
     <div>
@@ -10,3 +10,5 @@ export default function HomeComponent({ fields }) {
     </div>
   )
 }
+
+export default HomeComponent

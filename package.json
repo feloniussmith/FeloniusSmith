@@ -71,7 +71,12 @@
     ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "globals": {
+        "URL": "readonly",
+        "fetch": "readonly",
+        "Event": "readonly"
+      }
   },
   "browserslist": {
     "production": [

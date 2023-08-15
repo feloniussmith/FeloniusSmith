@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default () => {
+const PressKitComponent = ({ fields }) => {
   return (
     <div>
       <text style={{fontSize: 200}}>PRESSKIT</text>
     </div>
   )
 }
+
+export default PressKitComponent
