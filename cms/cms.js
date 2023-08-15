@@ -2,9 +2,9 @@ import React from 'react'
 
 import '../src/globalStyles.css'
 import data from '../src/data.json'
-import Home from '../src/views/Home'
+import Home from '../src/views/HomeComponent'
 import About from '../src/views/About'
-import Contact from '../src/views/Contact'
+import Contact from '../src/views/ContactComponent'
 import Blog from '../src/views/Blog'
 import SinglePost from '../src/views/SinglePost'
 
