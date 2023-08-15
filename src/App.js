@@ -5,8 +5,8 @@ import Helmet from 'react-helmet'
 import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
 import NavGuitar from './views/NavGuitar'
-import About from './views/About'
-import Contact from './views/Contact'
+// import About from './views/About'
+// import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
 
 import VideosComponent from './views/VideosComponent';
@@ -16,9 +16,9 @@ import CalendarComponent from './views/CalendarComponent';
 import PressKitComponent from './views/PressKitComponent';
 import ContactComponent from './views/ContactComponent';
 
-import Nav from './components/Nav'
+// import Nav from './components/Nav'
 import data from './data.json'
-import { documentHasTerm, getCollectionTerms } from './util/collection'
+// import { getCollectionTerms } from './util/collection'
 
 const RouteWithMeta = ({ component: Component, ...props }) => (
   <Route
@@ -53,13 +53,13 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    const posts = this.getDocuments('posts').filter(
-      post => post.status !== 'Draft'
-    )
-    const categoriesFromPosts = getCollectionTerms(posts, 'categories')
-    const postCategories = this.getDocuments('postCategories').filter(
-      category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
-    )
+    // const posts = this.getDocuments('posts').filter(
+    //   post => post.status !== 'Draft'
+    // )
+    // const categoriesFromPosts = getCollectionTerms(posts, 'categories')
+    // const postCategories = this.getDocuments('postCategories').filter(
+    //   category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
+    // )
 
     return (
       <Router>

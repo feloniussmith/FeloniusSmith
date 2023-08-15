@@ -1,7 +1,7 @@
 import React from 'react'
-import { useState } from 'react';
+// import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import bg from '../Images/bg.jpg';
+// import bg from '../Images/bg.jpg';
 import styles from '../Styles/Home.module.scss'
 
 export default function NavGuitar({ children }) {
