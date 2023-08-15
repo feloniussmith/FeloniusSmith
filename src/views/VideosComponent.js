@@ -1,4 +1,3 @@
-import { de } from 'date-fns/locale'
 import React from 'react'
 
 const VideoComponent = () => {
