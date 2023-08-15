@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '../Styles/Pages.module.scss'
+import '../Styles/Pages.scss'
 
 export default function CalendarComponent({ fields }) {
   const { title } = fields
   return (
-    <div className={styles.componentContainer}>
+    <div className='componentContainer'>
       <div style={{fontSize: 200, color: 'white', zIndex: 9999}}>
         {title}
       </div>
