@@ -3,6 +3,7 @@
   "version": "0.5.1",
   "private": true,
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "chokidar-cli": "^2.0.0",
     "css-loader": "^6.8.1",
     "glob": "^7.1.4",
@@ -32,6 +33,7 @@
     "moveto": "^1.8.2",
     "netlify-identity-widget": "^1.5.5",
     "node-sass": "^9.0.0",
+    "path-browserify": "^1.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-feather": "^2.0.3",
