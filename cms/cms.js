@@ -2,12 +2,14 @@ import React from 'react'
 
 import '../src/globalStyles.css'
 import data from '../src/data.json'
-import Home from '../src/views/HomeComponent'
-import About from '../src/views/About'
-import Contact from '../src/views/ContactComponent'
-import Blog from '../src/views/Blog'
-import SinglePost from '../src/views/SinglePost'
-import NavGuitar from '../src/views/NavGuitar'
+
+import HomeComponent from '../src/views/HomeComponent'
+import ContactComponent from '../src/views/ContactComponent'
+import PressKitComponent from '../src/views/PressKitComponent'
+import CalendarComponent from '../src/views/CalendarComponent'
+import MusicComponent from '../src/views/MusicComponent'
+import VideosComponent from '../src/views/VideosComponent'
+// import NavGuitar from '../src/views/NavGuitar'
 
 console.log('React version', React.version)
 
@@ -21,26 +23,27 @@ const getDocument = (collection, name) =>
   data[collection] && data[collection].filter(page => page.name === name)[0]
 const getDocuments = (collection, name) => data[collection]
 
-const globalSettings = getDocument('settings', 'global')
+// const globalSettings = getDocument('settings', 'global')
 const posts = getDocuments('posts')
 
 // Preview Templates
-CMS.registerPreviewTemplate('home-page', ({ entry }) => (
-  <NavGuitar>
-    <Home fields={entry.toJS().data} />
-  </NavGuitar>
+CMS.registerPreviewTemplate('home', ({ entry }) => (
+  <HomeComponent fields={entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-page', ({ entry }) => (
-  <About fields={entry.toJS().data} />
+CMS.registerPreviewTemplate('videos', ({ entry }) => (
+  <VideosComponent fields={entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
-  <Contact fields={entry.toJS().data} siteTitle={globalSettings.siteTitle} />
+CMS.registerPreviewTemplate('calendar', ({ entry }) => (
+  <CalendarComponent fields={entry.toJS().data} posts={posts} />
 ))
-CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
-  <Blog fields={entry.toJS().data} posts={posts} />
+CMS.registerPreviewTemplate('music', ({ entry }) => (
+  <MusicComponent fields={entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('posts', ({ entry }) => (
-  <SinglePost fields={entry.toJS().data} />
+CMS.registerPreviewTemplate('presskit', ({ entry }) => (
+  <PressKitComponent fields={entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('contact', ({ entry }) => (
+  <ContactComponent fields={entry.toJS().data} />  //siteTitle={globalSettings.siteTitle}
 ))
 
 // Return to home when user logging out

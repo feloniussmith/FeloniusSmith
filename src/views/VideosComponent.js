@@ -1,11 +1,13 @@
 import React from 'react'
+import styles from '../Styles/Pages.module.scss'
 
-const VideoComponent = () => {
+const CalendarComponent = ({ fields }) => {
+  const { title } = fields
   return (
     <div>
-      <text style={{fontSize: 200}}>VIDEO</text>
+      {title}
     </div>
   )
 }
 
-export default VideoComponent
+export default CalendarComponent

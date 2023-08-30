@@ -1,11 +1,13 @@
 import React from 'react'
+import styles from '../Styles/Pages.module.scss'
 
-const MusicComponent = () => {
+const CalendarComponent = ({ fields }) => {
+  const { title } = fields
   return (
     <div>
-      <text style={{fontSize: 200}}>MUSIC</text>
+      {title}
     </div>
   )
 }
 
-export default MusicComponent
+export default CalendarComponent

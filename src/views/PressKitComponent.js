@@ -1,11 +1,13 @@
 import React from 'react'
+import styles from '../Styles/Pages.module.scss'
 
-const PressKitComponent = ({ fields }) => {
+const CalendarComponent = ({ fields }) => {
+  const { title } = fields
   return (
     <div>
-      <text style={{fontSize: 200}}>PRESSKIT</text>
+      {title}
     </div>
   )
 }
 
-export default PressKitComponent
+export default CalendarComponent

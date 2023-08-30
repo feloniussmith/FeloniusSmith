@@ -1,11 +1,13 @@
 import React from 'react'
+import styles from '../Styles/Pages.module.scss'
 
-const ContactComponent = ({ fields }) => {
+const CalendarComponent = ({ fields }) => {
+  const { title } = fields
   return (
     <div>
-      <text style={{fontSize: 200}}>CONTACT</text>
+      {title}
     </div>
   )
 }
 
-export default ContactComponent
+export default CalendarComponent

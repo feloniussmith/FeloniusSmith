@@ -1,0 +1,65 @@
+@use './styles.scss';
+
+.componentContainer {
+  position: absolute;
+  top: 0;  /* Adjust these values as needed */
+  left: 0; /* Adjust these values as needed */
+  /* ... other styles */
+}
+
+.logo {
+  padding-top: 2rem;
+}
+
+.calendar {
+  padding-left: 10rem;
+  .calendarHeader {
+    h1 {
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+      margin-top: 1rem;
+    }
+    p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+      line-height: 120%;
+    }
+  }
+  .calendarContainer {
+    padding: 0 2rem;
+    .eventContainer {
+      margin-top: 1rem;
+      .locationContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+      }
+      h1 {
+        font-style: italic;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 0rem;
+        line-height: 100%;
+      }
+      h3 {
+        font-style: italic;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 0rem;
+      }
+      li {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}

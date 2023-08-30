@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Helmet from 'react-helmet'
+import styles from './Styles/App.module.scss'
 
 import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
 import NavGuitar from './views/NavGuitar'
-// import About from './views/About'
-// import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
 
 import VideosComponent from './views/VideosComponent';
@@ -15,10 +14,9 @@ import HomeComponent from './views/HomeComponent';
 import CalendarComponent from './views/CalendarComponent';
 import PressKitComponent from './views/PressKitComponent';
 import ContactComponent from './views/ContactComponent';
+import Header from './components/main/Header';
 
-// import Nav from './components/Nav'
 import data from './data.json'
-// import { getCollectionTerms } from './util/collection'
 
 const RouteWithMeta = ({ component: Component, ...props }) => (
   <Route
@@ -43,6 +41,7 @@ class App extends Component {
 
   getDocuments = collection => this.state.data[collection] || []
 
+
   render () {
     const globalSettings = this.getDocument('settings', 'global')
     const {
@@ -53,9 +52,9 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    // const posts = this.getDocuments('posts').filter(
-    //   post => post.status !== 'Draft'
-    // )
+    const events = this.getDocuments('events').filter(
+      post => post.status !== 'Draft'
+    )
     // const categoriesFromPosts = getCollectionTerms(posts, 'categories')
     // const postCategories = this.getDocuments('postCategories').filter(
     //   category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
@@ -63,82 +62,84 @@ class App extends Component {
 
     return (
       <Router>
-        <div className='React-Wrap'>
-          <ScrollToTop />
-          <Helmet
-            defaultTitle={siteTitle}
-            titleTemplate={`${siteTitle} | %s`}
-          />
-          <Meta
-            headerScripts={headerScripts}
-            absoluteImageUrl={
-              socialMediaCard &&
-              socialMediaCard.image &&
-              siteUrl + socialMediaCard.image
-            }
-            twitterCreatorAccount={
-              socialMediaCard && socialMediaCard.twitterCreatorAccount
-            }
-            twitterSiteAccount={
-              socialMediaCard && socialMediaCard.twitterSiteAccount
-            }
-          />
+        <div className={styles.background}>
+          <div className={styles.container}>
+            <NavGuitar/>
+            <ScrollToTop />
+            <Helmet
+              defaultTitle={siteTitle}
+              titleTemplate={`${siteTitle} | %s`}
+            />
+            <Meta
+              headerScripts={headerScripts}
+              absoluteImageUrl={
+                socialMediaCard &&
+                socialMediaCard.image &&
+                siteUrl + socialMediaCard.image
+              }
+              twitterCreatorAccount={
+                socialMediaCard && socialMediaCard.twitterCreatorAccount
+              }
+              twitterSiteAccount={
+                socialMediaCard && socialMediaCard.twitterSiteAccount
+              }
+            />
+            <div className={styles.body}>
+              <Header />
+              <div className={styles.content}>
+                <Switch>
+                  <RouteWithMeta
+                    path='/'
+                    exact
+                    component={(props) => (
+                      <HomeComponent {...props} />
+                    )}
+                    description={siteDescription}
+                    fields={this.getDocument('pages', 'home')}
+                  />
+                  <RouteWithMeta
+                    path='/videos/'
+                    exact
+                    component={VideosComponent}
+                    fields={this.getDocument('pages', 'videos')}
+                    siteTitle={siteTitle}
+                  />
+                  <RouteWithMeta
+                    path='/calendar'
+                    exact
+                    component={(props) => (
+                      <CalendarComponent {...props} />
+                    )}
+                    description={siteDescription}
+                    fields={this.getDocument('pages', 'calendar')}
+                    events={events}
+                  />
+                  <RouteWithMeta
+                    path='/music/'
+                    exact
+                    component={MusicComponent}
+                    fields={this.getDocument('pages', 'music')}
+                  />
+                  <RouteWithMeta
+                    path='/presskit/'
+                    exact
+                    component={PressKitComponent}
+                    fields={this.getDocument('pages', 'presskit')}
+                    siteTitle={siteTitle}
+                  />
+                  <RouteWithMeta
+                    path='/contact/'
+                    exact
+                    component={ContactComponent}
+                    fields={this.getDocument('pages', 'contact')}
+                    siteTitle={siteTitle}
+                  />
 
-          <Switch>
-            <RouteWithMeta
-              path='/'
-              exact
-              component={(props) => (
-                <NavGuitar>
-                  <HomeComponent {...props} />
-                </NavGuitar>
-              )}
-              description={siteDescription}
-              fields={this.getDocument('pages', 'home')}
-            />
-            <RouteWithMeta
-              path='/videos/'
-              exact
-              component={VideosComponent}
-              fields={this.getDocument('pages', 'contact')}
-              siteTitle={siteTitle}
-            />
-            <RouteWithMeta
-              path='/calendar'
-              exact
-              component={(props) => (
-                <NavGuitar>
-                  <CalendarComponent {...props} />
-                </NavGuitar>
-              )}
-              description={siteDescription}
-              fields={this.getDocument('pages', 'calendar')}
-            />
-            <RouteWithMeta
-              path='/music/'
-              exact
-              component={MusicComponent}
-              fields={this.getDocument('pages', 'about')}
-            />
-            <RouteWithMeta
-              path='/presskit/'
-              exact
-              component={PressKitComponent}
-              fields={this.getDocument('pages', 'contact')}
-              siteTitle={siteTitle}
-            />
-            <RouteWithMeta
-              path='/contact/'
-              exact
-              component={ContactComponent}
-              fields={this.getDocument('pages', 'contact')}
-              siteTitle={siteTitle}
-            />
-
-            <Route render={() => <NoMatch siteUrl={siteUrl} />} />
-          </Switch>
-
-          {/* <NavGuitar/> */}
+                  <Route render={() => <NoMatch siteUrl={siteUrl} />} />
+                </Switch>
+              </div>
+            </div>
+          </div>
         </div>
       </Router>
     )
