@@ -130,7 +130,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: Title, name: title, widget: string}
       - {label: Embed, name: embed, widget: string}
-      - {label: Description, name: description, widget: string}
+      - {label: Description, name: description, widget: text}
 
   - name: "settings"
     label: "Settings"
