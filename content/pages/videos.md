@@ -1,7 +1,4 @@
 ---
 title: Videos
-featuredImage: /images/uploads/isabella juskova.jpg
-subtitle: This is the home page subtitle
-meta:
-  title: ""
+description: Check out our vintage acoustic blues style in these videos.
 ---

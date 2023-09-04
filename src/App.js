@@ -103,6 +103,7 @@ class App extends Component {
                     component={VideosComponent}
                     fields={this.getDocument('pages', 'videos')}
                     siteTitle={siteTitle}
+                    videos={this.getDocuments('videos')}
                   />
                   <RouteWithMeta
                     path='/calendar'
@@ -119,6 +120,7 @@ class App extends Component {
                     exact
                     component={MusicComponent}
                     fields={this.getDocument('pages', 'music')}
+                    musicList={this.getDocuments('music')}
                   />
                   <RouteWithMeta
                     path='/presskit/'

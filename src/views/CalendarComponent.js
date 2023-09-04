@@ -26,8 +26,8 @@ const CalendarComponent = ({ fields, events = [], }) => {
   return (
     <div className={styles.calendar}>
       <div className={styles.calendarHeader}>
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.description}>{description}</p>
       </div>
       <div className={styles.calendarContainer}>
         {Events(events)}
