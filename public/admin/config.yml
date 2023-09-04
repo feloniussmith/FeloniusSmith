@@ -126,11 +126,18 @@ collections: # A list of collections the CMS should be able to edit
       preview: true
     folder: content/music
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    create: true
+    fields:
       - {label: Title, name: title, widget: string}
       - {label: Embed, name: embed, widget: string}
       - {label: Description, name: description, widget: text}
+      - label: Reviews
+        name: reviews
+        widget: list
+        fields:
+          - {label: Text, name: text, widget: text}
+          - {label: Author, name: author, widget: string}
+
 
   - name: "settings"
     label: "Settings"
