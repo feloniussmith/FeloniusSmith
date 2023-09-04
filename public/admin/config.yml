@@ -35,22 +35,22 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/blog.md"
-        label: "Blog Page"
-        name: "blog-page"
+      - file: "content/pages/calendar.md"
+        label: "Calendar Page"
+        name: "calendar-page"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
+          - {label: Description, name: description, widget: text}
+          - label: Events
+            name: events
+            widget: list
             fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
+              - {label: Date, name: date, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Location, name: location, widget: string}
+              - {label: Phone Number, name: phonenumber, widget: string}
+              - {label: Address, name: address, widget: string}
+              - {label: Website, name: website, widget: string}
 
       - file: "content/pages/about.md"
         label: "About Page"
