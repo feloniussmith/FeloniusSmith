@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../Styles/Home.module.scss';
-import IMG from '../Images/img/jeffSmith.jpg';
+import IMG from '../Images/img/jeffSmith.png';
 
 const HomeComponent = ({ fields }) => {
   const { text1, review, musictext, musicsubtext, embed } = fields;
