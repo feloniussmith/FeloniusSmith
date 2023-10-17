@@ -20,7 +20,7 @@ reviews:
       totally fresh then you must not have heard Jeff “Felonius” Smith and his
       new album “Before That Rooster Crows”. It clearly proves that you don’t
       have to sound dated to respect and celebrate the great music of the past.”
-    author: — Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM
+    author: Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM
   - text: >-
       “Felonius has long been a...proponent of older blues styles and his love
       of that music shines like a searchlight at a car lot on a cloudy night,
@@ -31,6 +31,5 @@ reviews:
 
 
       This disk was clearly a labor of love that will appeal to blues fans who enjoy unamplified music played on the porch or street corner...Count me in. ”
-    author: — Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov.
-      2014
+    author: Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014
 ---

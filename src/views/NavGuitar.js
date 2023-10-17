@@ -10,6 +10,7 @@ const NavGuitar = () => {
       <NavLink to='/music' className={styles.dotButton} style={{top: '158px', left: '9.33673469387755%'}} activeClassName='active'></NavLink>
       <NavLink to='/presskit' className={styles.dotButton} style={{top: '229px', left: '4.948979591836735%'}} activeClassName='active'></NavLink>
       <NavLink to='/contact' className={styles.dotButton} style={{top: '211px', left: '15.96938775510204%'}} activeClassName='active'></NavLink>
+      <NavLink to='/' className={styles.dotButton} style={{top: '720px', left: '19.5%'}} activeClassName='active'></NavLink>
     </>
   )
 }

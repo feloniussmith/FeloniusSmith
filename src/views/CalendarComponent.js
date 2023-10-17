@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 
-const CalendarComponent = ({ fields }) => {
-  const { title, description, events } = fields
+const CalendarComponent = ({ fields, events = [] }) => {
+  const { title, description } = fields
 
   const Events = (events) => {
     return (
