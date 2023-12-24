@@ -5,4 +5,4 @@
 
 [build]
   publish = "build"
-  command = "CI=true npm run build"
+  command = "npm run build"
