@@ -36,17 +36,17 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Noindex, name: noindex, widget: boolean, required: false}
       
       - file: "content/pages/presskit.md"
-        label: "Press Kit Page"
+        label: "Press Kit"
         name: "presskit-page"
         fields: 
-        - {label: Title, name: title, widget: string}
-        - {label: body, title: body, widget: text}
-        - label: presskit-items
-        name: Press Kit Items
-        widget: list
-        fields: 
-        - {label: text, name: text, widget: string}
-        - {label: link, name: link, widget: file}
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: text }
+          - label: Press Kit Items
+            name: presskit-items
+            widget: list
+            fields: 
+              - { label: Text, name: text, widget: string }
+              - { label: Link, name: link, widget: file }
 
       - file: "content/pages/calendar.md"
         label: "Calendar Page"
