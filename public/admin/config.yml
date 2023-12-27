@@ -34,6 +34,19 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
+      
+      - file: "content/pages/presskit.md"
+        label: "Press Kit"
+        name: "presskit-page"
+        fields: 
+        - {label: Title, name: title, widget: string}
+        - {label: body, title: body, widget: text}
+        - label: presskit-items
+        name: Press Kit Items
+        widget: list
+        fields: 
+        - {label: text, name: text, widget: string}
+        - {label: link, name: link, widget: file}
 
       - file: "content/pages/calendar.md"
         label: "Calendar Page"
