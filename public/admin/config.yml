@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Noindex, name: noindex, widget: boolean, required: false}
       
       #- file: "content/pages/presskit.md"
-        - label: "Press Kit"
+      - label: "Press Kit"
         name: "presskit-page"
         fields: 
         - {label: Title, name: title, widget: string}
