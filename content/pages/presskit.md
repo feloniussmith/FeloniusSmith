@@ -20,10 +20,17 @@ downloadPressKitLink: Download the complete Felonius Smith Electronic Press Kit
   (zipped folder, 26 MB)
 subDownloadPressKitLink: Contains all items below
 performanceVenues:
-  nightclubsCafes:
-    - venue: meme
-    - location: meme
-  fairsFestivals:
-    - venue: meme
-    - location: meme
+  Fairs&Festivals:
+    - venue: Evergreen Jazz Festival
+      location: Evergreen, CO
+    - venue: Blues Under The Bridge Festival
+      location: Colorado Springs, CO
+  Nightclubs/Cafes:
+    - venue: Boulder Theater
+      location: Boulder, CO
+    - venue: Swallow Hill Music
+      location: Denver, CO
+  FairsFestivals:
+    - venue: Boulder Theater
+      location: Boulder, CO
 ---
