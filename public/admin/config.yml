@@ -53,7 +53,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "calendar-page"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: text}
+          - { label: Body, name: body, widget: text }
           - label: Events
             name: events
             widget: list
