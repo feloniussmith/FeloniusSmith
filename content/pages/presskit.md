@@ -8,10 +8,11 @@ DownloadPressKitLink: "Download the complete Felonius Smith Electronic Press Kit
 SubDownloadPressKitLink: Contains all items below
 performanceVenues:
   FairsFestivals:
-    - venue: yes
+    - venue: dsd
       location: yescs
   NightclubsCafes:
-    - venue: no
+    - venue: dsf
       location: nosdf
+    - venue: asd
+      location: asd
 ---
-asd

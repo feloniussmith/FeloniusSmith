@@ -10,10 +10,10 @@ const PresskitComponent = ({ fields }) => {
     electronicPressKitText,
     downloadPressKitLink,
     subDownloadPressKitLink,
-    //pressKitItems,
+    presskitItems,
     performanceVenues
   } = fields
-  // console.log(performanceVenues['nightclubsCafes'])
+   console.log(performanceVenues)
   return (
     <div className={styles.masterDiv}>
       <div classname={styles.mainText}>
@@ -26,19 +26,18 @@ const PresskitComponent = ({ fields }) => {
       <p>{downloadPressKitLink}</p>
       <p>{subDownloadPressKitLink}</p>
       <div className={styles.itemContainer}>
-        {/*{pressKitItems.map((item, index) => (
+        {presskitItems.map((item, index) => (
           <div>
             <p className={styles.pressKitItem}>{item.text}</p>
           </div>
         )
         )} 
-        */}
       </div>
       <h2>Performance Venues</h2>
       <div>
         <b>Fairs & Festivals</b>
         <div className={styles.itemContainer}>
-          {performanceVenues['nightclubsCafes'].map((item, index) => (
+          {performanceVenues['FairsFestivals'].map((item, index) => (
           <VenueItem key={index} venue={item.venue} location={item.location}/>
           ))}
         </div>
@@ -46,7 +45,7 @@ const PresskitComponent = ({ fields }) => {
       <div>
         <b>Nightclubs/Cafes</b>
         <div className={styles.itemContainer}>
-          {performanceVenues['nightclubsCafes'].map((item, index) => (
+          {performanceVenues['NightclubsCafes'].map((item, index) => (
             <VenueItem key={index} venue={item.venue} location={item.location}/>
           ))}
         </div>
