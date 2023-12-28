@@ -2,7 +2,6 @@
 title: Felonius Smith Press Kit
 presskitItems:
   - text: Big Rock Blues
-    link: /images/uploads/card-og.png
     pressKitItemFile: /images/uploads/big-road-blues-1-.mp3
   - text: Biographies
     pressKitItemFile: /images/uploads/felonius-biographies.pdf

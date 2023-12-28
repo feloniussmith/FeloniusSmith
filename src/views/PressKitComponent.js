@@ -13,9 +13,11 @@ const PresskitComponent = ({ fields }) => {
     presskitItems,
     performanceVenues
   } = fields
+
+  console.log(presskitItems[0].pressKitItemFile)
   return (
     <div className={styles.masterDiv}>
-      <div classname={styles.mainText}>
+      <div>
         <h1>{title}</h1>
       </div>
       <ReactMarkdown>
@@ -27,14 +29,14 @@ const PresskitComponent = ({ fields }) => {
       <div className={styles.itemContainer}>
         {presskitItems.map((item, index) => (
           <div>
-            <p className={styles.presskitItem}>{item.text}</p>
+            <a key={index} href={item.pressKitItemFile} className={styles.presskitItem}>{item.text}</a>
           </div>
         )
         )} 
       </div>
       <h2>Performance Venues</h2>
       <div>
-        <b>Fairs & Festivals</b>
+        <b><i>Fairs & Festivals</i></b>
         <div className={styles.itemContainer}>
           {performanceVenues['FairsFestivals'].map((item, index) => (
           <VenueItem key={index} venue={item.venue} location={item.location}/>
@@ -42,7 +44,7 @@ const PresskitComponent = ({ fields }) => {
         </div>
       </div>
       <div>
-        <b>Nightclubs/Cafes</b>
+        <b><i>Nightclubs/Cafes</i></b>
         <div className={styles.itemContainer}>
           {performanceVenues['NightclubsCafes'].map((item, index) => (
             <VenueItem key={index} venue={item.venue} location={item.location}/>
