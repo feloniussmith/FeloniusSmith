@@ -8,7 +8,7 @@ const PresskitComponent = ({ fields }) => {
     title, 
     body,
     ElectronicPressKitText,
-    DownloadPressKitLink,
+    downloadPressKit,
     SubDownloadPressKitLink,
     presskitItems,
     performanceVenues
@@ -24,7 +24,7 @@ const PresskitComponent = ({ fields }) => {
         {body}
       </ReactMarkdown>
       <h2>{ElectronicPressKitText}</h2>
-      <p>{DownloadPressKitLink}</p>
+      <a className={styles.downloadPresskitStyle} href={downloadPressKit.DownloadPressKitLink}>{downloadPressKit.DownloadPressKitText}</a>
       <p>{SubDownloadPressKitLink}</p>
       <div className={styles.itemContainer}>
         {presskitItems.map((item, index) => (
