@@ -31,7 +31,8 @@ const PresskitComponent = ({ fields }) => {
             <p className={styles.pressKitItem}>{item.text}</p>
           </div>
         )
-        )} */}
+        )} 
+        */}
       </div>
       <h2>Performance Venues</h2>
       <div>
