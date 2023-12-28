@@ -26,12 +26,12 @@ const PresskitComponent = ({ fields }) => {
       <p>{downloadPressKitLink}</p>
       <p>{subDownloadPressKitLink}</p>
       <div className={styles.itemContainer}>
-        {pressKitItems.map((item, index) => (
+        {/*{pressKitItems.map((item, index) => (
           <div>
             <p className={styles.pressKitItem}>{item.text}</p>
           </div>
         )
-        )}
+        )} */}
       </div>
       <h2>Performance Venues</h2>
       <div>
