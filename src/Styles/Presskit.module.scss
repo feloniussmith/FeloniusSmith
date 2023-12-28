@@ -1,0 +1,72 @@
+@use './styles.scss';
+
+.mainText {
+  position: absolute;
+  width: 320px;
+  height: 200px;
+  top: 0;
+  right: 0;
+  h1 {
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 2.2rem;
+    line-height: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: #003d4c
+  }
+}
+
+h2 {
+  color: #003d4c;
+  font-weight: normal;
+  font-size: 27px;
+  margin-bottom: 0;
+  margin-top:16px;
+}
+
+p, b {
+  color: #000000;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.25em;
+}
+
+.masterDiv {
+  margin-left: 70px;
+}
+
+.presskitItem {
+  color: #003d4c;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.venueContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 8px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.venueRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.venueIcon {
+  margin-right: 8px;
+}
