@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 
-const VideosComponent = ({ fields, videos = [], }) => {
-  const { title, description } = fields
+const VideosComponent = ({ fields }) => {
+  const { title, body, videos } = fields
 
   const Videos = (videos) => {
     return (
@@ -21,7 +21,7 @@ const VideosComponent = ({ fields, videos = [], }) => {
     <div className={styles.videos}>
       <div className={styles.videosHeader}>
         <h1 className={styles.title}>{title}</h1>
-        <p className={styles.description}>{description}</p>
+        <p className={styles.description}>{body}</p>
       </div>
       {Videos(videos)}
     </div>

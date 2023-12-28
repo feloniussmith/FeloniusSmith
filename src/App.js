@@ -103,7 +103,6 @@ class App extends Component {
                     component={VideosComponent}
                     fields={this.getDocument('pages', 'videos')}
                     siteTitle={siteTitle}
-                    videos={this.getDocuments('videos')}
                   />
                   <RouteWithMeta
                     path='/calendar'

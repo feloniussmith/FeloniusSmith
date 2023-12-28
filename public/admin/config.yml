@@ -102,16 +102,18 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-  - name: Videos
-    label: Videos
-    editor:
-      preview: true
-    folder: content/videos
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: Title, name: title, widget: string}
-      - {label: Link, name: link, widget: string}
+      - file: "content/pages/videos.md"
+        label: "Video Page"
+        name: "video-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Videos
+            name: videos
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Link, name: link, widget: string}
 
   - name: Music
     label: Music
