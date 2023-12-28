@@ -99,8 +99,8 @@ performanceVenues:
     - venue: KGNU Radio Kabaret concerts
       location: 88.5 FM Boulder, CO
 ---
-**Felonius Smith Trio** performs prewar blues music at its most authentic - taking us back to a time when original bluesmen were pioneering a new musical style.  
-<br/>
+**Felonius Smith Trio** performs prewar blues music at its most authentic - taking us back to a time when original bluesmen were pioneering a new musical style. \n\n
+
 Drawing his inspiration from the songs and styles of artists like Tampa Red and Fred McDowell, ***Felonius Smith’s*** National slide and snappy finger picking guitar style transports one back some 80 years, relaxing on a river bank in southern Mississippi.
 
 The talented and expressive ***Steve Sheldon*** plays harmonica with the group. His love of the old country blues and his experience with American roots musical styles are reflected in his melodic sense and traditional sound.
