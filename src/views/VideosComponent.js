@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 
-const CalendarComponent = ({ fields, videos = [], }) => {
+const VideosComponent = ({ fields, videos = [], }) => {
   const { title, description } = fields
 
   const Videos = (videos) => {
@@ -28,4 +28,4 @@ const CalendarComponent = ({ fields, videos = [], }) => {
   )
 }
 
-export default CalendarComponent
+export default VideosComponent

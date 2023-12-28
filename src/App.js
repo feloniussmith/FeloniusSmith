@@ -52,9 +52,9 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    const events = this.getDocuments('events').filter(
-      post => post.status !== 'Draft'
-    )
+    // const events = this.getDocuments('events').filter(
+    //   post => post.status !== 'Draft'
+    // )
     // const categoriesFromPosts = getCollectionTerms(posts, 'categories')
     // const postCategories = this.getDocuments('postCategories').filter(
     //   category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
@@ -113,7 +113,6 @@ class App extends Component {
                     )}
                     description={siteDescription}
                     fields={this.getDocument('pages', 'calendar')}
-                    events={events}
                   />
                   <RouteWithMeta
                     path='/music/'

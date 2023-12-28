@@ -1,18 +1,14 @@
 ---
-title: Contact
-subtitle: ''
-featuredImage: '/images/uploads/mark-chang-74-3.jpg'
-address: 404 James St, Burleigh Heads QLD 4220
-phone: 0987 123 456
-email: example@example.com
+title: Contact Info
+description: >-
+    Using National resonator guitars, harmonica and stand-up bass, Jeff “Felonius Smith” has developed a powerful sound reminiscent of the colorful tones created by the great Southern bottleneck blues players from the 1920’s and 1930’s.
+
+
+    He and his trio are available for festivals, concerts, private parties, and other special events – and Felonius also enjoys bringing the tradition of the blues’ heritage to schools in the community. He speaks about and performs examples of the history of blues guitar, providing students with insight into the times and circumstances of the old bluesmen and their songs – as well as the fascinating history of their often-preferred National (resophonic) guitar.
+
+
+    For bookings, private lessons, comments, inquiries, or to join Felonius' Email List, contact
+
+
+    Jeff “Felonius Smith” [felonius@feloniussmith.com](felonius@feloniussmith.com)
 ---
-
-# Example contact form
-
-This form is setup to use Netlify's form handling:
-
-* the form action is set to the current absolute url: `action: '/contact/'`
-* a name attribute is sent with the form's data `'form-name': 'Contact'`
-* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
