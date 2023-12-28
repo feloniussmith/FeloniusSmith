@@ -22,7 +22,22 @@ music:
 
       >
 
-      > > *Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM*
+      > *– Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM* 
+
+
+      > “Felonius has long been a...proponent of older blues styles and his love of that music shines like a searchlight at a car lot on a cloudy night, with fluid slide and delicate finger picking.
+
+      >
+
+      > Jeff “Felonius” Smith and his cohorts serve up a baker’s dozen blues tunes in pre-WWII style, including six originals, and the emphasis is on fun....
+
+      >
+
+      > This disk was clearly a labor of love that will appeal to blues fans who enjoy unamplified music played on the porch or street corner...Count me in. ”
+
+      >
+
+      > *– Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014*
     reviews:
       - text: “If you think traditional Blues can’t stay true to the past and still be
           totally fresh then you must not have heard Jeff “Felonius” Smith and
