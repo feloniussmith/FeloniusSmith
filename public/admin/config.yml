@@ -38,15 +38,42 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/pages/presskit.md"
         label: "Press Kit"
         name: "presskit-page"
-        fields: 
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: text }
-          - label: Press Kit Items
-            name: presskit-items
-            widget: list
-            fields: 
-              - { label: Text, name: text, widget: string }
-              - { label: Link, name: link, widget: file }
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+          - label: "Press Kit Items"
+            name: "presskitItems"
+            widget: "list"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Link", name: "link", widget: "file" }
+          - { label: "Electronic Press Kit Text", name: "ElectronicPressKitText", widget: "string" }
+          - { label: "Download Press Kit Link", name: "DownloadPressKitLink", widget: "string" }
+          - { label: "Sub Download Press Kit Link", name: "SubDownloadPressKitLink", widget: "string" }
+          - label: "Performance Venues"
+            name: "performanceVenues"
+            widget: "object"
+            fields:
+              - label: "Fairs & Festivals"
+                name: "FairsFestivals"
+                widget: "list"
+                fields:
+                  - label: "Venue"
+                    name: "venue"
+                    widget: "string"
+                  - label: "Location"
+                    name: "location"
+                    widget: "string"
+              - label: "Nightclubs/Cafes"
+                name: "NightclubsCafes"
+                widget: "list"
+                fields:
+                  - label: "Venue"
+                    name: "venue"
+                    widget: "string"
+                  - label: "Location"
+                    name: "location"
+                    widget: "string"
 
       - file: "content/pages/calendar.md"
         label: "Calendar Page"
