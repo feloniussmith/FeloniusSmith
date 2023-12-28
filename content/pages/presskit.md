@@ -3,6 +3,7 @@ title: Felonius Smith Press Kit
 presskitItems:
   - text: Big Rock Blues
     link: /images/uploads/card-og.png
+    pressKitItemFile: /images/uploads/big-road-blues-1-.mp3
   - text: Biographies
   - text: You Can't Get That Stuff No More
   - text: Reccomendations
