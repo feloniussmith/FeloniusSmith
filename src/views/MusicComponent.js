@@ -2,8 +2,8 @@ import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 import ReactMarkdown from 'react-markdown';
 
-const MusicComponent = ({ fields, musicList = [] }) => {
-  // const { title, description } = fields
+const MusicComponent = ({ fields }) => {
+  const { music } = fields
   const MusicList = (musicList) => {
     return (
       musicList.map((music, index) => {
@@ -34,7 +34,7 @@ const MusicComponent = ({ fields, musicList = [] }) => {
 
   return (
     <>
-      {MusicList(musicList)}
+      {MusicList(music)}
     </>
   )
 }

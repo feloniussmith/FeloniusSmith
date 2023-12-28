@@ -65,25 +65,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Address, name: address, widget: string}
               - {label: Website, name: website, widget: string}
 
-      - file: "content/pages/about.md"
-        label: "About Page"
-        name: "about-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Section 1, name: section1, widget: markdown}
-          - {label: Section 2, name: section2, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
       - file: "content/pages/home.md"
         label: "Home Page"
         name: "home-page"
@@ -115,24 +96,23 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
               - {label: Link, name: link, widget: string}
 
-  - name: Music
-    label: Music
-    editor:
-      preview: true
-    folder: content/music
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    create: true
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Embed, name: embed, widget: string}
-      - {label: Description, name: description, widget: text}
-      - label: Reviews
-        name: reviews
-        widget: list
+      - file: "content/pages/music.md"
+        label: "Music Page"
+        name: "music-page"
         fields:
-          - {label: Text, name: text, widget: text}
-          - {label: Author, name: author, widget: string}
-
+          - name: music
+            label: Music
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Embed, name: embed, widget: string}
+              - {label: Description, name: description, widget: text}
+              - label: Reviews
+                name: reviews
+                widget: list
+                fields:
+                  - {label: Text, name: text, widget: text}
+                  - {label: Author, name: author, widget: string}
 
   - name: "settings"
     label: "Settings"
