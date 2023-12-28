@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "presskit-page"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
           - label: "Press Kit Items"
             name: "presskitItems"
             widget: "list"
