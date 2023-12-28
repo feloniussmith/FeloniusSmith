@@ -17,7 +17,7 @@ music:
 
       We chose to reduce our environmental footprint on this project with a simple CD sleeve packaging. Click [HERE](https://feloniussmith.com/files/BuckLinerNotes2018.pdf) to view complete liner notes for all the details about the songs, instruments, plus art and production credits.
 
-
+    reviews: >-
       > “If you think traditional Blues can’t stay true to the past and still be totally fresh then you must not have heard Jeff “Felonius” Smith and his new album “Before That Rooster Crows”. It clearly proves that you don’t have to sound dated to respect and celebrate the great music of the past.”
 
       >
@@ -38,23 +38,4 @@ music:
       >
 
       > *– Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014*
-    reviews:
-      - text: “If you think traditional Blues can’t stay true to the past and still be
-          totally fresh then you must not have heard Jeff “Felonius” Smith and
-          his new album “Before That Rooster Crows”. It clearly proves that you
-          don’t have to sound dated to respect and celebrate the great music of
-          the past.”
-        author: Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM
-      - text: >-
-          “Felonius has long been a...proponent of older blues styles and his
-          love of that music shines like a searchlight at a car lot on a cloudy
-          night, with fluid slide and delicate finger picking.
-
-
-          Jeff “Felonius” Smith and his cohorts serve up a baker’s dozen blues tunes in pre-WWII style, including six originals, and the emphasis is on fun....
-
-
-          This disk was clearly a labor of love that will appeal to blues fans who enjoy unamplified music played on the porch or street corner...Count me in. ”
-        author: Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov.
-          2014
 ---

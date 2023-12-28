@@ -16,15 +16,10 @@ const MusicComponent = ({ fields }) => {
                 {music.body}
               </ReactMarkdown>
             </div>
-            <div className={styles.reviews}>
-              {music.reviews && music.reviews.map((review, idx) => (
-                <div key={idx}>
-                  <blockquote className={styles.reviewText}>
-                    <ReactMarkdown>{review.text}</ReactMarkdown>
-                  </blockquote>
-                  <cite className={styles.reviewAuthor}>— {review.author}</cite>
-                </div>
-              ))}
+            <div className={styles.text}>
+              <ReactMarkdown>
+                {music.reviews}
+              </ReactMarkdown>
             </div>
           </div>
         );
