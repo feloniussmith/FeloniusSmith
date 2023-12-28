@@ -1,8 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown';
 import styles from '../Styles/Presskit.module.scss'
-import { IoLocationOutline } from "react-icons/io5";
-import { MdOutlineFestival } from "react-icons/md";
 import VenueItem from '../components/venueItem';
 
 const PresskitComponent = ({ fields }) => {
