@@ -10,7 +10,7 @@ const PresskitComponent = ({ fields }) => {
     electronicPressKitText,
     downloadPressKitLink,
     subDownloadPressKitLink,
-    pressKitItems,
+    //pressKitItems,
     performanceVenues
   } = fields
   // console.log(performanceVenues['nightclubsCafes'])
