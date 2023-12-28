@@ -6,29 +6,29 @@ import VenueItem from '../components/venueItem';
 const PresskitComponent = ({ fields }) => {
   const { 
     title, 
-    Body,
-    ElectronicPressKitText,
-    DownloadPressKitLink,
-    SubDownloadPressKitLink,
-    presskitItems,
+    body,
+    electronicPressKitText,
+    downloadPressKitLink,
+    subDownloadPressKitLink,
+    pressKitItems,
     performanceVenues
   } = fields
-  console.log(performanceVenues['Nightclubs/Cafes'])
+  // console.log(performanceVenues['nightclubsCafes'])
   return (
     <div className={styles.masterDiv}>
       <div classname={styles.mainText}>
         <h1>{title}</h1>
       </div>
       <ReactMarkdown>
-        {Body}
+        {body}
       </ReactMarkdown>
-      <h2>{ElectronicPressKitText}</h2>
-      <p>{DownloadPressKitLink}</p>
-      <p>{SubDownloadPressKitLink}</p>
+      <h2>{electronicPressKitText}</h2>
+      <p>{downloadPressKitLink}</p>
+      <p>{subDownloadPressKitLink}</p>
       <div className={styles.itemContainer}>
-        {presskitItems.map((item, index) => (
+        {pressKitItems.map((item, index) => (
           <div>
-            <p className={styles.presskitItem}>{item.text}</p>
+            <p className={styles.pressKitItem}>{item.text}</p>
           </div>
         )
         )}
@@ -37,7 +37,7 @@ const PresskitComponent = ({ fields }) => {
       <div>
         <b>Fairs & Festivals</b>
         <div className={styles.itemContainer}>
-          {performanceVenues['Nightclubs/Cafes'].map((item, index) => (
+          {performanceVenues['nightclubsCafes'].map((item, index) => (
           <VenueItem key={index} venue={item.venue} location={item.location}/>
           ))}
         </div>
@@ -45,7 +45,7 @@ const PresskitComponent = ({ fields }) => {
       <div>
         <b>Nightclubs/Cafes</b>
         <div className={styles.itemContainer}>
-          {performanceVenues['Nightclubs/Cafes'].map((item, index) => (
+          {performanceVenues['nightclubsCafes'].map((item, index) => (
             <VenueItem key={index} venue={item.venue} location={item.location}/>
           ))}
         </div>
