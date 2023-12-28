@@ -25,6 +25,9 @@ presskitItems:
     pressKitItemFile: /images/uploads/felonius-venues.pdf
 ElectronicPressKitText: Electronic Press Kit
 DownloadPressKitLink: "Download the complete Felonius Smith Electronic Press Kit "
+downloadPressKit:
+  DownloadPressKitText: Download complete Felonius Smith Electronic Press Kit (zipped folder, 26 MB)
+  DownloadPressKitLink: /images/uploads/felonius-epk-2-.zip
 SubDownloadPressKitLink: Contains all items below
 performanceVenues:
   FairsFestivals:
