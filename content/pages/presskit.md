@@ -5,15 +5,25 @@ presskitItems:
     link: /images/uploads/card-og.png
     pressKitItemFile: /images/uploads/big-road-blues-1-.mp3
   - text: Biographies
+    pressKitItemFile: /images/uploads/felonius-biographies.pdf
   - text: You Can't Get That Stuff No More
+    pressKitItemFile: /images/uploads/you-can-t-get-that-stuff-no-more.mp3
   - text: Reccomendations
+    pressKitItemFile: /images/uploads/felonius-recommendations.pdf
   - text: Felonius Smith One Sheet
+    pressKitItemFile: /images/uploads/felonius-one-sheet.pdf
   - text: Publicity Photos (two)
+    pressKitItemFile: /images/uploads/felonius-publicity-photos.zip
   - text: Fact Sheet
+    pressKitItemFile: /images/uploads/felonius-fact-sheet.pdf
   - text: Posters (two)
+    pressKitItemFile: /images/uploads/felonius-posters.zip
   - text: Press & Reviews
+    pressKitItemFile: /images/uploads/felonius-press-reviews.pdf
   - text: Youtube Video Links
+    pressKitItemFile: /images/uploads/feloniussmithvideolinks.pdf
   - text: Venues
+    pressKitItemFile: /images/uploads/felonius-venues.pdf
 ElectronicPressKitText: Electronic Press Kit
 DownloadPressKitLink: "Download the complete Felonius Smith Electronic Press Kit "
 SubDownloadPressKitLink: Contains all items below
