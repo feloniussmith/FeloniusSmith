@@ -51,8 +51,8 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Download Press Kit"
             name: downloadPressKit
             fields:
-            - { label: "Download Press Kit Text", name: "DownloadPressKitText", widget: "string" }
-            - { label: "Download Press Kit Link", name: "DownloadPressKitLink", widget: "file" }
+              - { label: "Download Press Kit Text", name: "DownloadPressKitText", widget: "string" }
+              - { label: "Download Press Kit Link", name: "DownloadPressKitLink", widget: "file" }
           - { label: "Sub Download Press Kit Link", name: "SubDownloadPressKitLink", widget: "string" }
           - label: "Performance Venues"
             name: "performanceVenues"
