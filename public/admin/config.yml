@@ -50,7 +50,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Electronic Press Kit Text", name: "ElectronicPressKitText", widget: "string" }
           - label: "Download Press Kit"
             name: downloadPressKit
-            widget: "list"
             fields:
             - { label: "Download Press Kit Text", name: "DownloadPressKitText", widget: "string" }
             - { label: "Download Press Kit Link", name: "DownloadPressKitLink", widget: "file" }
