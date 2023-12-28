@@ -7,13 +7,12 @@ const PresskitComponent = ({ fields }) => {
   const { 
     title, 
     body,
-    electronicPressKitText,
-    downloadPressKitLink,
-    subDownloadPressKitLink,
+    ElectronicPressKitText,
+    DownloadPressKitLink,
+    SubDownloadPressKitLink,
     presskitItems,
     performanceVenues
   } = fields
-   console.log(performanceVenues)
   return (
     <div className={styles.masterDiv}>
       <div classname={styles.mainText}>
@@ -22,13 +21,13 @@ const PresskitComponent = ({ fields }) => {
       <ReactMarkdown>
         {body}
       </ReactMarkdown>
-      <h2>{electronicPressKitText}</h2>
-      <p>{downloadPressKitLink}</p>
-      <p>{subDownloadPressKitLink}</p>
+      <h2>{ElectronicPressKitText}</h2>
+      <p>{DownloadPressKitLink}</p>
+      <p>{SubDownloadPressKitLink}</p>
       <div className={styles.itemContainer}>
         {presskitItems.map((item, index) => (
           <div>
-            <p className={styles.pressKitItem}>{item.text}</p>
+            <p className={styles.presskitItem}>{item.text}</p>
           </div>
         )
         )} 
