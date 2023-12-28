@@ -2,7 +2,7 @@
 music:
   - title: BUCKING THE BLUES (2018)
     embed: https://embed.music.apple.com/us/album/bucking-the-blues/1417351829?app=music
-    description: >-
+    body: >-
       Finally, a new Felonius Smith Trio album which captures the magic of our live
       performances! This is our first CD recorded Live-In-Concert, and our first to
       feature the incredible harmonica talents of Steve Sheldon, who joined the
