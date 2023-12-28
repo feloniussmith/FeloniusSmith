@@ -1,6 +1,6 @@
 ---
 title: Felonious Smith Press Kit
-Body: >-
+body: >-
   **Felonius Smith Trio** performs prewar blues music at its most authentic -
   taking us back to a time when original bluesmen were pioneering a new musical
   style.
@@ -12,26 +12,18 @@ Body: >-
   Rounding out the trio is **Scott Johnson**, whose warm yet percussive approach to his upright bass provides the backbone of the group’s historic Americana blues sound. When he doubles on sousaphone, it invokes the vibe of a jug band or New Orleans street band.
 
   **Felonius Smith** has delighted audiences at festivals and nightspots on the Front Range for 10 years, sharing the stage with Richie Havens, Koko Taylor and David Bromberg.
-presskitItems:
+pressKitItems:
   - text: Big Road Blues.mp3
     link: /images/uploads/card-og.png
-ElectronicPressKitText: Electronic Press Kit
-DownloadPressKitLink: Download the complete Felonius Smith Electronic Press Kit
+electronicPressKitText: Electronic Press Kit
+downloadPressKitLink: Download the complete Felonius Smith Electronic Press Kit
   (zipped folder, 26 MB)
-SubDownloadPressKitLink: Contains all items below
+subDownloadPressKitLink: Contains all items below
 performanceVenues:
-  Fairs&Festivals:
-    - venue: Evergreen Jazz Festival
-      location: Evergreen, CO
-    - venue: Blues Under The Bridge Festival
-      location: Colorado Springs, CO
-  Nightclubs/Cafes:
-    - venue: Boulder Theater
-      location: Boulder, CO
-    - venue: Swallow Hill Music
-      location: Denver, CO
-  FairsFestivals:
-    - venue: Boulder Theater
-      location: Boulder, CO
+  nightclubsCafes:
+    - venue: meme
+    - location: meme
+  fairsFestivals:
+    - venue: meme
+    - location: meme
 ---
-asd
