@@ -16,7 +16,7 @@ const CalendarComponent = ({ fields }) => {
               <h3>({event.phonenumber})</h3>
             </div>
             <h2>{event.address}</h2>
-            <a href="url">{event.website}</a>
+            <a href={event.website}>{event.website}</a>
           </div>
         );
       })
