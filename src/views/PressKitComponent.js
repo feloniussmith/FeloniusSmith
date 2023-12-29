@@ -14,15 +14,18 @@ const PresskitComponent = ({ fields }) => {
     performanceVenues
   } = fields
 
-  console.log(presskitItems[0].pressKitItemFile)
+  const paragraphs = String(body).split('\n');
   return (
     <div className={styles.masterDiv}>
       <div>
         <h1>{title}</h1>
       </div>
-      <ReactMarkdown>
-        {body}
-      </ReactMarkdown>
+      {paragraphs.map((paragraph, index) => (
+        <div key={index}>
+          <ReactMarkdown>{paragraph}</ReactMarkdown>
+          {index < body.length - 1 && <br />} {/* Add <br /> between paragraphs */}
+        </div>
+      ))}
       <h2>{ElectronicPressKitText}</h2>
       <a className={styles.downloadPresskitStyle} href={downloadPressKit.DownloadPressKitLink}>{downloadPressKit.DownloadPressKitText}</a>
       <p>{SubDownloadPressKitLink}</p>
