@@ -116,5 +116,5 @@ music:
       >
 
       > — John Toebbe, Director, Colorado Blues Society
-    embed: asd
+    embed: ""
 ---
