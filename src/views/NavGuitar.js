@@ -18,21 +18,21 @@ import navCalendarActive from '../Images/feloniusCalendarActive.png';
 const NavGuitar = () => {
   return (
     <>
-      <NavLink to='/videos' className={styles.dotButton} style={{top: '90px', left: '2.806122448979592%'}} activeClassName='active'>
-        <img src={navVideos} alt='felonius-videos' className={styles.defaultImage} />
-        <img src={navVideosActive} alt='felonius-videos-active' className={styles.hoverImage} />
-      </NavLink>
-
       <NavLink to='/calendar' className={styles.dotButton} style={{top: '95px', left: '8.29%'}} activeClassName='active'>
         <img src={navCalendar} alt='felonius-calendar' className={styles.defaultImage} />
         <img src={navCalendarActive} alt='felonius-calendar-active' className={styles.hoverImage} />
+      </NavLink>
+
+      <NavLink to='/videos' className={styles.dotButton} style={{top: '90px', left: '2.806122448979592%'}} activeClassName='active'>
+        <img src={navVideos} alt='felonius-videos' className={styles.defaultImage} />
+        <img src={navVideosActive} alt='felonius-videos-active' className={styles.hoverImage} />
       </NavLink>
 
       <NavLink to='/music' className={styles.dotButton} style={{top: '161px', left: '9.4%'}} activeClassName='active'>
         <img src={navMusic} alt='felonius-music' className={styles.defaultImage}/>
         <img src={navMusicActive} alt='felonius-music-active' className={styles.hoverImage}/>
       </NavLink>
-      
+
       <NavLink to='/contact' className={styles.dotButton} style={{top: '236.8px', left: '11.7%'}} activeClassName='active'>
         <img src={navContactPhotos} alt='felonius-contact' className={styles.defaultImage}/>
         <img src={navContactPhotosActive} alt='felonius-contact-active' className={styles.hoverImage}/>
