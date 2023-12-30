@@ -31,8 +31,8 @@ images:
     description: contact-24
   - image: /images/uploads/contact-8.jpg
     description: contact-8
-  - image: /images/uploads/contact-3.jpg
-    description: contact-3
+  - image: /images/uploads/contact-4.jpg
+    description: contact-4
   - image: /images/uploads/contact-10.jpg
     description: contact-10
   - image: /images/uploads/contact-23.jpg
@@ -59,8 +59,8 @@ images:
     description: contact-21
   - image: /images/uploads/contact-22.jpg
     description: contact-22
-  - image: /images/uploads/contact-4.jpg
-    description: contact-4
+  - image: /images/uploads/contact-3.jpg
+    description: contact-3
   - image: /images/uploads/contact-12.jpg
     description: contact-12
 email: felonius@feloniussmith.com
