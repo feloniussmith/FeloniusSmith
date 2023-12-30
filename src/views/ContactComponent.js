@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 import ReactMarkdown from 'react-markdown';
 import img from '../Images/jeffSmith1.png';
-import img2 from '../Images/feloniusSmith.png';
+//import img2 from '../Images/feloniusSmith.png';
 
 const ContactComponent = ({ fields }) => {
   const { title, description } = fields
