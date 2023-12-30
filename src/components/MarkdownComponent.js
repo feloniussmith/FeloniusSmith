@@ -7,9 +7,11 @@ const MarkdownComponent = ({ text }) => {
   return (
     <>
       {paragraphs.map((paragraph, index) => (
-        <ReactMarkdown key={index} className={styles.paragraphGap}>
-          {paragraph}
-        </ReactMarkdown>
+        <div className={styles.description}>
+          <ReactMarkdown key={index} className={styles.paragraphGap}>
+              {paragraph}
+          </ReactMarkdown>
+        </div>
       ))}
     </>
   );
