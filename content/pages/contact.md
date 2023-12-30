@@ -27,16 +27,16 @@ images:
     description: contact-11
   - image: /images/uploads/contact-19.jpg
     description: contact-19
-  - image: /images/uploads/contact-7.jpg
-    description: contact-7
+  - image: /images/uploads/contact-2.jpg
+    description: contact-2
   - image: /images/uploads/contact-8.jpg
     description: contact-8
-  - image: /images/uploads/contact-9.jpg
-    description: contact-9
+  - image: /images/uploads/contact-3.jpg
+    description: contact-3
   - image: /images/uploads/contact-10.jpg
     description: contact-10
-  - image: /images/uploads/contact-11.jpg
-    description: contact-11
+  - image: /images/uploads/contact-4.jpg
+    description: contact-4
   - image: /images/uploads/contact-12.jpg
     description: contact-12
   - image: /images/uploads/contact-13.jpg
@@ -51,8 +51,8 @@ images:
     description: contact-17
   - image: /images/uploads/contact-18.jpg
     description: contact-18
-  - image: /images/uploads/contact-19.jpg
-    description: contact-19
+  - image: /images/uploads/contact-6.jpg
+    description: contact-6
   - image: /images/uploads/contact-20.jpg
     description: contact-20
   - image: /images/uploads/contact-21.jpg
