@@ -13,12 +13,12 @@
 
 .title {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 .description {
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   font-weight: 400;
-  line-height: 1.05;
+  // line-height: 1.05;
 }
 .title, .description {
   margin: 0;
@@ -120,6 +120,99 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+// Presskit
+
+.masterDiv {
+  margin-left: 80px;
+  
+  h2 {
+    color: #003d4c;
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 0;
+    margin-top:16px;
+  }
+  
+  p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.25em;
+  }
+  
+  b {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.25em;
+  }
+
+}
+
+.presskitItem {
+  color: #003d4c;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 8px;
+  column-gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.electronicContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8px;
+  column-gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.gridsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.gridListContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  .btitle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.25em;
+  }
+}
+
+.venueContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-left: 0;
+  border-radius: 10px;
+}
+
+.venueRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.venueIcon {
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 // Components

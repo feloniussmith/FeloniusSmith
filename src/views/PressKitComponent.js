@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../Styles/Presskit.module.scss'
+import styles from '../Styles/Pages.module.scss'
 import VenueItem from '../components/venueItem';
 import MarkdownComponent from '../components/MarkdownComponent';
 const PresskitComponent = ({ fields }) => {
@@ -15,10 +15,10 @@ const PresskitComponent = ({ fields }) => {
   return (
     <div className={styles.masterDiv}>
       <div>
-        <h1>{title}</h1>
+        <h1 className={styles.title}>{title}</h1>
       </div>
-      <MarkdownComponent text={body} />
-      <h2>{ElectronicPressKitText}</h2>
+      <MarkdownComponent text={body}/>
+      <h1 className={styles.title}>{ElectronicPressKitText}</h1>
       <a className={styles.downloadPresskitStyle} href={downloadPressKit.DownloadPressKitLink}>{downloadPressKit.DownloadPressKitText}</a>
       <p>{SubDownloadPressKitLink}</p>
       <div className={styles.electronicContainer}>
@@ -29,7 +29,7 @@ const PresskitComponent = ({ fields }) => {
         )
         )} 
       </div>
-      <h2>Performance Venues</h2>
+      <h1 className={styles.title}>Performance Venues</h1>
       <div className={styles.gridsContainer}>
         <div className={styles.gridListContainer}>
           <b className={styles.btitle}>Fairs & Festivals</b>
