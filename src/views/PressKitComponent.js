@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown';
 import styles from '../Styles/Presskit.module.scss'
 import VenueItem from '../components/venueItem';
 import MarkdownComponent from '../components/MarkdownComponent';

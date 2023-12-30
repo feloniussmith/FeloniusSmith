@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 import ReactMarkdown from 'react-markdown';
+import img from '../Images/jeffSmith1.png';
+import img2 from '../Images/feloniusSmith.png';
 
 const ContactComponent = ({ fields }) => {
   const { title, description } = fields
@@ -13,6 +15,30 @@ const ContactComponent = ({ fields }) => {
           <ReactMarkdown>
             {description}
           </ReactMarkdown>
+
+          <div className={styles.gallery}>
+            <div className={styles.photo}>
+              <img src={img} />
+            </div>
+
+            <div className={styles.photo}>
+              <img src={img} />
+            </div>
+
+            <div className={styles.photo}>
+              <img src={img2} />
+            </div>
+
+            <div className={styles.photo}>
+              <img src={img} />
+            </div>
+
+            <div className={styles.photo}>
+              <img src={img} />
+            </div>
+
+
+          </div>
         </p>
       </div>
     </div>

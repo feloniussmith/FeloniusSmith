@@ -102,6 +102,26 @@
   }
 }
 
+// Contact Page
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; /* Adjust the gap as needed */
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px; /* Adjust the margin as needed */
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 // Components
 
 .paragraphGap {
