@@ -8,4 +8,22 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   transform: translate(-50%, -50%);
+
+  .defaultImage {
+    display: block;
+  }
+
+  .hoverImage {
+    display: none;
+  }
+
+  &:hover {
+    .defaultImage {
+      display: none;
+    }
+
+    .hoverImage {
+      display: block;
+    }
+  }
 }
