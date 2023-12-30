@@ -18,23 +18,7 @@ const ContactComponent = ({ fields }) => {
 
           <div className={styles.gallery}>
             <div className={styles.photo}>
-              <img src={img} />
-            </div>
-
-            <div className={styles.photo}>
-              <img src={img} />
-            </div>
-
-            <div className={styles.photo}>
-              <img src={img2} />
-            </div>
-
-            <div className={styles.photo}>
-              <img src={img} />
-            </div>
-
-            <div className={styles.photo}>
-              <img src={img} />
+              <img src={img} alt=''/>
             </div>
 
 
