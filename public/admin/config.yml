@@ -94,19 +94,12 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home-page"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Body, name: body, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
+          - {label: Top Text, name: text1, widget: markdown}
+          - {label: Review Text, name: text, widget: markdown}
+          - {label: Review Author, name: author, widget: string}
+          - {label: Embed, name: embed, widget: string}
+          - {label: Music Text, name: musictext, widget: string}
+          - {label: Music Sub-Text, name: musicsubtext, widget: string}
 
       - file: "content/pages/videos.md"
         label: "Video Page"

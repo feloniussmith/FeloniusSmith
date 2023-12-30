@@ -15,10 +15,10 @@ const HomeComponent = ({ fields }) => {
       <div className={styles.review}>
         <img className={styles.mainImage} src={IMG} alt="Jeff Smith" />
         <div className={styles.reviewText}>
-          {review.text}
+          {text}
         </div>
         <div className={styles.reviewAuthor}>
-          {review.author}
+          {author}
         </div>
       </div>
 
