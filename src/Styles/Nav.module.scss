@@ -8,22 +8,4 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   transform: translate(-50%, -50%);
-
-  &:hover {
-    transform: translate(-50%, -50%) scale(1.1);
-  }
-
-  &::before {
-    content: "";
-    //display: block;
-    //padding-top: 100%; // This makes the height equal to the width
-    //border-radius: 50%;
-    //background-color: rgb(136, 255, 0);
-    //opacity: 1;
-    //transition: background-color 0.3s ease;
-  }
-
-  &.active::before {
-    //background-color: rgb(56, 168, 56); // or whatever active style you desire
-  }
 }
