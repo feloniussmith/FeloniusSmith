@@ -3,7 +3,7 @@ import styles from '../Styles/Home.module.scss';
 import IMG from '../Images/jeffSmith1.png';
 
 const HomeComponent = ({ fields }) => {
-  const { text1, review, musictext, musicsubtext, embed } = fields;
+  const { text1, text, author, musictext, musicsubtext, embed } = fields;
 
   return (
     <>
