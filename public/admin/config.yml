@@ -39,7 +39,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: "Text", name: "text", widget: "string" }
               - { label: "Press Kit Item File", name: "pressKitItemFile", widget: "file", required: false}
-          - { label: "Electronic Press Kit Text", name: "ElectronicPressKitText", widget: "string" }
+          - { label: "Electronic Press Kit Title", name: "ElectronicPressKitText", widget: "string" }
+          - { label: "Performance Venue Title", name: "performanceVenue", widget: "string" }
           - label: "Download Press Kit"
             name: "downloadPressKit"
             widget: "object"
