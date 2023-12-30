@@ -13,7 +13,7 @@ description: >-
   For bookings, private lessons, comments, inquiries, or to join Felonius' Email List, contact
 
 
-  Jeff “Felonius Smith” [felonius@feloniussmith.com](felonius@feloniussmith.com)
+  Jeff “Felonius Smith” [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com)
 images:
   - image: /images/uploads/contact-1.jpg
     description: contact-1
