@@ -32,16 +32,16 @@ const NavGuitar = () => {
         <img src={navMusic} alt='felonius-music' className={styles.defaultImage}/>
         <img src={navMusicActive} alt='felonius-music-active' className={styles.hoverImage}/>
       </NavLink>
+      
+      <NavLink to='/contact' className={styles.dotButton} style={{top: '236.8px', left: '11.7%'}} activeClassName='active'>
+        <img src={navContactPhotos} alt='felonius-contact' className={styles.defaultImage}/>
+        <img src={navContactPhotosActive} alt='felonius-contact-active' className={styles.hoverImage}/>
+      </NavLink>
 
       <NavLink to='/presskit' className={styles.dotButton} style={{top: '222px', left: '5%'}} activeClassName='active'>
         <img src={navPresskit} alt='felonius-presskit' className={styles.defaultImage}/>
         <img src={navPresskitActive} alt='felonius-presskit-active' className={styles.hoverImage}/>
         </NavLink>
-
-      <NavLink to='/contact' className={styles.dotButton} style={{top: '236.8px', left: '11.7%'}} activeClassName='active'>
-        <img src={navContactPhotos} alt='felonius-contact' className={styles.defaultImage}/>
-        <img src={navContactPhotosActive} alt='felonius-contact-active' className={styles.hoverImage}/>
-      </NavLink>
       
       <NavLink to='/' className={styles.dotButton} style={{top: '725px', left: '18%'}} activeClassName='active'>
         <img src={navHome} alt='felonius-home' />
