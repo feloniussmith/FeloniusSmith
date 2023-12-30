@@ -7,12 +7,9 @@ const ContactComponent = ({ fields }) => {
 
   const formattedImages = images.map((image, index) => (
     <div className={styles.photo}>
-      <img src={image.image} alt={image.description} key={index} />
+      <a href={image.image}><img src={image.image} alt={image.description} data-echo={image.image} key={index} /></a>
     </div>
   ))
-
-  console.log(images)
-
   return (
     <div className={styles.videos}>
       <div className={styles.videosHeader}>
