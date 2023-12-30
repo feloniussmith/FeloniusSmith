@@ -5,7 +5,15 @@ import img from '../Images/jeffSmith1.png';
 //import img2 from '../Images/feloniusSmith.png';
 
 const ContactComponent = ({ fields }) => {
-  const { title, description } = fields
+  const { title, description, images } = fields
+
+  const formattedImages = images.map((image, index) => (
+    <div className={styles.photo}>
+      <img src={image.image} alt={image.description} key={index} />
+    </div>
+  ))
+
+  console.log(images)
 
   return (
     <div className={styles.videos}>
@@ -17,11 +25,7 @@ const ContactComponent = ({ fields }) => {
           </ReactMarkdown>
 
           <div className={styles.gallery}>
-            <div className={styles.photo}>
-              <img src={img} alt=''/>
-            </div>
-
-
+            {formattedImages}
           </div>
         </p>
       </div>
