@@ -17,5 +17,17 @@ description: >-
 images:
   - image: /images/uploads/contact-1.jpg
     description: contact-1
+  - image: /images/uploads/contact-2.jpg
+    description: contact-2
+  - image: /images/uploads/contact-3.jpg
+    description: contact-3
+  - image: /images/uploads/contact-4.jpg
+    description: contact-4
+  - image: /images/uploads/contact-5.jpg
+    description: contact-5
+  - image: /images/uploads/contact-6.jpg
+    description: contact-6
+  - image: /images/uploads/contact-7.jpg
+    description: contact-7
 email: felonius@feloniussmith.com
 ---
