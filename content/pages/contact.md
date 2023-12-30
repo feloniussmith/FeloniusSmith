@@ -45,16 +45,16 @@ images:
     description: contact-14
   - image: /images/uploads/contact-15.jpg
     description: contact-15
-  - image: /images/uploads/contact-16.jpg
-    description: contact-16
+  - image: /images/uploads/contact-20.jpg
+    description: contact-20
   - image: /images/uploads/contact-17.jpg
     description: contact-17
   - image: /images/uploads/contact-18.jpg
     description: contact-18
   - image: /images/uploads/contact-6.jpg
     description: contact-6
-  - image: /images/uploads/contact-20.jpg
-    description: contact-20
+  - image: /images/uploads/contact-16.jpg
+    description: contact-16
   - image: /images/uploads/contact-21.jpg
     description: contact-21
   - image: /images/uploads/contact-22.jpg
