@@ -3,10 +3,13 @@ import React from 'react'
 import Logo from '../../Images/feloniusSmith.png'
 import styles from '../../Styles/Pages.module.scss'
 
+import MobileMenu from '../MobileMenu'
+
 const Header = () => {
   return (
-    <div>
+    <div className={styles.header}>
       <img src={Logo} alt="Logo" className={styles.logo}></img>
+      <MobileMenu />
     </div>
   )
 }

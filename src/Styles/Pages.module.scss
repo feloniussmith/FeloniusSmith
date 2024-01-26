@@ -7,6 +7,13 @@
   /* ... other styles */
 }
 
+// Header
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo {
   margin-top: 2rem;
 }
@@ -75,6 +82,9 @@
   .videosHeader {
     padding-left: 10rem;
     margin-bottom: 2rem;
+    @media (max-width: 976px) {
+      padding-left: 0;
+    }
   }
   .videoContainer {
     padding-left: 5rem;
@@ -85,11 +95,35 @@
     .video {
       margin: 0;
     }
+    @media (max-width: 976px) {
+      padding-left: 0;
+    }
+  }
+}
+
+.contact {
+  .contactHeader {
+    padding-left: 10rem;
+    margin-bottom: 2rem;
+    @media (max-width: 976px) {
+      padding: 0 40px 0 40px;
+    }
+  }
+  .contactContainer {
+    padding-left: 5rem;
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .contact {
+      margin: 0;
+    }
   }
 }
 
 .music {
   overflow: auto; /* To clear the float */
+  padding: 0px 40px 0px 40px;
   .title {
     margin: 0;
   }
@@ -126,6 +160,10 @@
 
 .masterDiv {
   margin-left: 80px;
+  @media (max-width: 976px) {
+    margin-left: 0;
+    padding: 0px 40px 0px 40px;
+  }
   
   h2 {
     color: #003d4c;
@@ -219,6 +257,15 @@
   margin-bottom: 12px;
 }
 
+// Mobile menu
+
+.mobileMenu {
+  display: none;
+  @media (max-width: 976px) {
+    display: block;
+  }
+}
+
 
 // global
 
@@ -234,5 +281,10 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
+}
+
+.menuItem {
+  color: #003d4c;
   text-decoration: none;
 }

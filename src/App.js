@@ -32,8 +32,8 @@ const RouteWithMeta = ({ component: Component, ...props }) => (
 
 class App extends Component {
   state = {
-    data
-  }
+    data,
+  };
 
   getDocument = (collection, name) =>
     this.state.data[collection] &&
@@ -64,7 +64,7 @@ class App extends Component {
       <Router>
         <div className={styles.background}>
           <div className={styles.container}>
-            <NavGuitar/>
+            <NavGuitar className={styles.navGuitar}/>
             <ScrollToTop />
             <Helmet
               defaultTitle={siteTitle}

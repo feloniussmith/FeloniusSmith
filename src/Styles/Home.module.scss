@@ -30,6 +30,9 @@ body {
     font-style: italic;
     color: rgb(7, 62, 109);
   }
+  @media (max-width: 976px) {
+    position: relative;
+  }
 }
 
 .mainImage {

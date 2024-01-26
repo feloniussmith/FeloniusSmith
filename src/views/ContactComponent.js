@@ -11,8 +11,8 @@ const ContactComponent = ({ fields }) => {
     </div>
   ))
   return (
-    <div className={styles.videos}>
-      <div className={styles.videosHeader}>
+    <div className={styles.contact}>
+      <div className={styles.contactHeader}>
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.description}>
           <ReactMarkdown>
