@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../Styles/Home.module.scss';
+import ReactMarkdown from 'react-markdown';
 import IMG from '../Images/jeffSmith1.png';
 
 const HomeComponent = ({ fields }) => {
@@ -8,26 +9,34 @@ const HomeComponent = ({ fields }) => {
   return (
     <>
     <div className={styles.mainText}>
-      <h1>{text1}</h1>
+      <h1><ReactMarkdown>{text1}</ReactMarkdown></h1>
     </div>
     <div className={styles.homeContainer}>
 
       <div className={styles.review}>
         <img className={styles.mainImage} src={IMG} alt="Jeff Smith" />
         <div className={styles.reviewText}>
-          {text}
+          <ReactMarkdown>
+            {text}
+          </ReactMarkdown>
         </div>
         <div className={styles.reviewAuthor}>
-          {author}
+          <ReactMarkdown>
+            {author}
+          </ReactMarkdown>
         </div>
       </div>
 
       <div className={styles.musicInfo}>
         <div className={styles.musicText}>
-          {musictext}
+          <ReactMarkdown>
+            {musictext}
+          </ReactMarkdown>
         </div>
         <div className={styles.musicSubtext}>
-          {musicsubtext}
+          <ReactMarkdown>
+            {musicsubtext}
+          </ReactMarkdown>
         </div>
       </div>
 
