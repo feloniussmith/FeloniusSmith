@@ -4,17 +4,17 @@ presskitItems:
   - text: Big Rock Blues
     pressKitItemFile: /images/uploads/big-road-blues-1-.mp3
   - text: Biographies
-    pressKitItemFile: /images/uploads/felonius-biographies.pdf
+    pressKitItemFile: /images/uploads/bio-sheet-2023.pdf
   - text: You Can't Get That Stuff No More
     pressKitItemFile: /images/uploads/you-can-t-get-that-stuff-no-more.mp3
   - text: Reccomendations
     pressKitItemFile: /images/uploads/felonius-recommendations.pdf
   - text: Felonius Smith One Sheet
-    pressKitItemFile: /images/uploads/felonius-one-sheet.pdf
+    pressKitItemFile: /images/uploads/one-sheet-2023.pdf
   - text: Publicity Photos (two)
     pressKitItemFile: /images/uploads/felonius-publicity-photos.zip
   - text: Fact Sheet
-    pressKitItemFile: /images/uploads/felonius-fact-sheet.pdf
+    pressKitItemFile: /images/uploads/felonius-fact-sheet-2023.pdf
   - text: Posters (two)
     pressKitItemFile: /images/uploads/felonius-posters.zip
   - text: Press & Reviews
@@ -22,7 +22,7 @@ presskitItems:
   - text: Youtube Video Links
     pressKitItemFile: /images/uploads/feloniussmithvideolinks.pdf
   - text: Venues
-    pressKitItemFile: /images/uploads/felonius-venues.pdf
+    pressKitItemFile: /images/uploads/felonius-venues-2023.pdf
 ElectronicPressKitText: Electronic Press Kit
 performanceVenue: Performance Venue
 SubDownloadPressKitLink: ""
