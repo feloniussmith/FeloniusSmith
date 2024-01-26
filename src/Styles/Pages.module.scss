@@ -94,6 +94,11 @@
     }
     .video {
       margin: 0;
+      height: 315px;
+      width: 560px;
+      @media (max-width: 976px) {
+        width: 100%;
+      }
     }
     @media (max-width: 976px) {
       padding-left: 0;

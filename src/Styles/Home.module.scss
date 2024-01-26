@@ -7,11 +7,11 @@ body {
 
 .homeContainer {
   position: relative;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  // background-color: aqua;
+  background-color: aqua;
 }
 
 
@@ -59,6 +59,10 @@ body {
   .reviewAuthor {
     // styling for the review author
     text-align: right;
+  }
+  @media (max-width: 976px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
