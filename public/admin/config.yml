@@ -18,36 +18,30 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact Page"
         name: "contact-page"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: markdown }
+          - { label: Title, name: title, widget: string, required: false}
+          - { label: Description, name: description, widget: markdown, required: false}
           - label: Images
             name: images
             widget: list
             fields:
               - { label: Image, name: image, widget: file }
-              - { label: Description, name: description, widget: string}
+              - { label: Description, name: description, widget: string, required: false}
       
       - file: "content/pages/presskit.md"
         label: "Press Kit"
         name: "presskit-page"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Title", name: "title", widget: "string", required: false}
+          - { label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Press Kit Items"
             name: "presskitItems"
             widget: "list"
             fields:
-              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Text", name: "text", widget: "string"}
               - { label: "Press Kit Item File", name: "pressKitItemFile", widget: "file", required: false}
-          - { label: "Electronic Press Kit Title", name: "ElectronicPressKitText", widget: "string" }
-          - { label: "Performance Venue Title", name: "performanceVenue", widget: "string" }
-          - label: "Download Press Kit"
-            name: "downloadPressKit"
-            widget: "object"
-            fields:
-              - { label: "Download Press Kit Text", name: "DownloadPressKitText", widget: "string" }
-              - { label: "Download Press Kit Link", name: "DownloadPressKitLink", widget: "file" }
-          - { label: "Sub Download Press Kit Link", name: "SubDownloadPressKitLink", widget: "string" }
+          - { label: "Electronic Press Kit Title", name: "ElectronicPressKitText", widget: "string", required: false}
+          - { label: "Performance Venue Title", name: "performanceVenue", widget: "string", required: false}
+          - { label: "Sub Electronic Press Kit Text", name: "SubDownloadPressKitLink", widget: "string", required: false}
           - label: "Performance Venues"
             name: "performanceVenues"
             widget: "object"
@@ -77,42 +71,42 @@ collections: # A list of collections the CMS should be able to edit
         label: "Calendar Page"
         name: "calendar-page"
         fields:
-          - {label: Title, name: title, widget: string}
-          - { label: Body, name: body, widget: text }
+          - {label: Title, name: title, widget: string, required: false}
+          - { label: Body, name: body, widget: text, required: false}
           - label: Events
             name: events
             widget: list
             fields:
-              - {label: Date, name: date, widget: string}
-              - {label: Title, name: title, widget: string}
-              - {label: Location, name: location, widget: string}
-              - {label: Phone Number, name: phonenumber, widget: string}
-              - {label: Address, name: address, widget: string}
-              - {label: Website, name: website, widget: string}
+              - {label: Date, name: date, widget: string, required: false}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Location, name: location, widget: string, required: false}
+              - {label: Phone Number, name: phonenumber, widget: string, required: false}
+              - {label: Address, name: address, widget: string, required: false}
+              - {label: Website, name: website, widget: string, required: false}
 
       - file: "content/pages/home.md"
         label: "Home Page"
         name: "home-page"
         fields:
-          - {label: Top Text, name: text1, widget: markdown}
-          - {label: Review Text, name: text, widget: markdown}
-          - {label: Review Author, name: author, widget: string}
-          - {label: Embed, name: embed, widget: string}
-          - {label: Music Text, name: musictext, widget: string}
-          - {label: Music Sub-Text, name: musicsubtext, widget: string}
+          - {label: Top Text, name: text1, widget: markdown, required: false}
+          - {label: Review Text, name: text, widget: markdown, required: false}
+          - {label: Review Author, name: author, widget: markdown, required: false}
+          - {label: Embed, name: embed, widget: markdown, required: false}
+          - {label: Music Text, name: musictext, widget: markdown, required: false}
+          - {label: Music Sub-Text, name: musicsubtext, widget: markdown, required: false}
 
       - file: "content/pages/videos.md"
         label: "Video Page"
         name: "video-page"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Body, name: body, widget: markdown, required: false}
           - label: Videos
             name: videos
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Link, name: link, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Link, name: link, widget: string, required: false}
 
       - file: "content/pages/music.md"
         label: "Music Page"
@@ -122,9 +116,9 @@ collections: # A list of collections the CMS should be able to edit
             label: Music
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
               - {label: Embed, name: embed, widget: string, required: false}
-              - {label: Body, name: body, widget: markdown}
+              - {label: Body, name: body, widget: markdown, required: false}
               - {label: Reviews, name: reviews, widget: markdown, required: false}
 
   - name: "settings"
