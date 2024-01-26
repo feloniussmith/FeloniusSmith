@@ -12,7 +12,7 @@ const MobileMenu = () => {
         width: '36px',
         height: '30px',
         right: '36px',
-        top: '36px',
+        top: '50px',
     },
     bmBurgerBars: {
         background: '#073E6D'

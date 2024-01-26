@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: aqua;
+  //background-color: aqua;
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 .review {
-  width: 540px;
+  width: auto;
   text-align: right;
   font-size: 1.3rem;
   line-height: 20px;
@@ -60,10 +60,7 @@ body {
     // styling for the review author
     text-align: right;
   }
-  @media (max-width: 976px) {
-    display: flex;
-    flex-direction: column;
-  }
+  
 }
 
 .media {
