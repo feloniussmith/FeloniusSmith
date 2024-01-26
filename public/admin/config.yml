@@ -88,12 +88,12 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home-page"
         fields:
-          - {label: Top Text, name: text1, widget: markdown, required: false}
-          - {label: Review Text, name: text, widget: markdown, required: false}
-          - {label: Review Author, name: author, widget: markdown, required: false}
-          - {label: Embed, name: embed, widget: markdown, required: false}
-          - {label: Music Text, name: musictext, widget: markdown, required: false}
-          - {label: Music Sub-Text, name: musicsubtext, widget: markdown, required: false}
+          - {label: Top Text, name: text1, widget: text, required: false}
+          - {label: Review Text, name: text, widget: text, required: false}
+          - {label: Review Author, name: author, widget: string, required: false}
+          - {label: Embed, name: embed, widget: string, required: false}
+          - {label: Music Text, name: musictext, widget: string, required: false}
+          - {label: Music Sub-Text, name: musicsubtext, widget: string, required: false}
 
       - file: "content/pages/videos.md"
         label: "Video Page"
