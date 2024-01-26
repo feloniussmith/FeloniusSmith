@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 // import MusicPlayer from '../components/main/MusicPlayer';
 
 const MusicComponent = ({ fields }) => {
-  const { music } = fields
+  const { title, body, music } = fields
   // const playList = [
   //   [{
   //     name: "Skinny Man Blues (Live)",
@@ -46,7 +46,7 @@ const MusicComponent = ({ fields }) => {
     return (
       musicList.map((music, index) => {
         return (
-          <div className={styles.music} key={index}>
+          <div key={index}>
             <h1 className={styles.title}>{music.title}</h1>
             {/* <div className={styles.media}>
               <MusicPlayer playList={playList[index]}/>
@@ -70,8 +70,14 @@ const MusicComponent = ({ fields }) => {
 
   return (
     <>
+    <div className={styles.music}>
+      <div className={styles.calendarHeader}>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.description}><ReactMarkdown>{body}</ReactMarkdown></p>
+      </div>
       {MusicList(music)}
       {/* <MusicPlayer /> */}
+    </div>
     </>
   )
 }
