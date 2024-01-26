@@ -10,7 +10,7 @@ const VideosComponent = ({ fields }) => {
         return (
           <div className={styles.videoContainer} key={index}>
             <h1 className={styles.title}>{video.title}</h1>
-            <iframe className={styles.video} title={video.title} width="560" height="315" src={video.link} frameborder="0" gesture="media" allowfullscreen></iframe>
+            <iframe className={styles.video} title={video.title} src={video.link} frameborder="0" gesture="media" allowfullscreen></iframe>
           </div>
         );
       })

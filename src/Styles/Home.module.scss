@@ -7,11 +7,11 @@ body {
 
 .homeContainer {
   position: relative;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  // background-color: aqua;
+  //background-color: aqua;
 }
 
 
@@ -30,6 +30,9 @@ body {
     font-style: italic;
     color: rgb(7, 62, 109);
   }
+  @media (max-width: 976px) {
+    position: relative;
+  }
 }
 
 .mainImage {
@@ -40,7 +43,7 @@ body {
 }
 
 .review {
-  width: 540px;
+  width: auto;
   text-align: right;
   font-size: 1.3rem;
   line-height: 20px;
@@ -57,6 +60,7 @@ body {
     // styling for the review author
     text-align: right;
   }
+  
 }
 
 .media {
@@ -69,10 +73,10 @@ body {
   margin-top: 20px;
   text-align: center;
   .musicText {
-    font-weight: 500;
+    font-weight:700;
     font-size: 1.75rem;
+    color: #003d4c;
   }
-  
   .musicSubtext {
     font-weight: 500;
   }
