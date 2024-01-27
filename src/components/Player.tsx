@@ -3,13 +3,10 @@ import { MdPlayArrow, MdPause } from 'react-icons/md';
 import AudioPlayer from './AudioPlayer.tsx';
 import styles from '../Styles/Pages.module.scss';
 
-import { songs } from './songs.ts';
-
 const Player = ({ name, cover, songs }) => {
   const [currentSongIndex, setCurrentSongIndex] = useState(-1);
 
   const currentSong = songs[currentSongIndex];
-  console.log(songs)
 
   return (
     <div className={styles.first}>
