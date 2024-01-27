@@ -127,7 +127,7 @@ export default function AudioPlayer({
           onProgress={handleBufferProgress}
           onVolumeChange={(e) => setVolume(e.currentTarget.volume)}
         >
-          <source type="audio/mpeg" src={currentSong.src} />
+          <source type="audio/mpeg" src={currentSong.source} />
         </audio>
       )}
       <AudioProgressBar
