@@ -41,6 +41,11 @@ music:
       >
 
       > *– Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014*
+    songs:
+      - source: /images/uploads/big-road-blues-1-.mp3
+        title: Big Road Blues
+    name: Bucking The Blues
+    albumcover: /images/uploads/feloni.jpg
   - title: BEFORE THAT ROOSTER CROWS (2014)
     body: >-
       “Before That Rooster Crows” is Felonius Smith’s second Colorado CD
@@ -86,6 +91,8 @@ music:
       >
 
       > — Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014
+    name: Before That Rooster Crows
+    albumcover: /images/uploads/rooster.jpg
   - title: HOOLAY MOOLAY (2007)
     body: >-
       Felonius Smith’s third CD release, “Hoolay Moolay”, is his first since
@@ -118,5 +125,7 @@ music:
 
       > — John Toebbe, Director, Colorado Blues Society
     embed: ""
+    name: Hoolay Moolay
+    albumcover: /images/uploads/morb.png
 ---
 The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
