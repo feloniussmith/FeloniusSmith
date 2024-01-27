@@ -2,14 +2,12 @@ import React from 'react';
 import styles from '../Styles/Home.module.scss';
 // import ReactMarkdown from 'react-markdown';
 import IMG from '../Images/jeffSmith1.png';
-import Player from '../components/Player.tsx';
 const HomeComponent = ({ fields }) => {
   const { text1, text, author, musictext, musicsubtext, embed } = fields;
 
   return (
     <>
     <div className={styles.mainText}>
-      <Player />
       <h1>{text1}</h1>
     </div>
     <div className={styles.homeContainer}>

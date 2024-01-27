@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import {
   MdPlayArrow,
   MdPause,
@@ -8,12 +8,12 @@ import {
   MdVolumeOff,
 } from 'react-icons/md';
 import { CgSpinner } from 'react-icons/cg';
-import IconButton from './IconButton.tsx';
-import AudioProgressBar from './AudioProgressBar.tsx';
-import VolumeInput from './VolumeInput.tsx';
+import IconButton from './IconButton';
+import AudioProgressBar from './AudioProgressBar';
+import VolumeInput from './VolumeInput';
 import styles from '../Styles/Pages.module.scss';
 
-function formatDurationDisplay(duration: number) {
+function formatDurationDisplay(duration) {
   const min = Math.floor(duration / 60);
   const sec = Math.floor(duration - min * 60);
 
@@ -22,34 +22,26 @@ function formatDurationDisplay(duration: number) {
   return formatted;
 }
 
-interface AudioPlayerProps {
-  currentSong?: { title: string; src: string };
-  songIndex: number;
-  songCount: number;
-  onNext: () => void;
-  onPrev: () => void;
-}
-
 export default function AudioPlayer({
   currentSong,
-  songCount,
   songIndex,
+  songCount,
   onNext,
   onPrev,
-}: AudioPlayerProps) {
-  const audioRef = React.useRef<HTMLAudioElement | null>(null);
+}) {
+  const audioRef = useRef(null);
 
-  const [isReady, setIsReady] = React.useState(false);
-  const [duration, setDuration] = React.useState(0);
-  const [currrentProgress, setCurrrentProgress] = React.useState(0);
-  const [buffered, setBuffered] = React.useState(0);
-  const [volume, setVolume] = React.useState(0.2);
-  const [isPlaying, setIsPlaying] = React.useState(false);
+  const [isReady, setIsReady] = useState(false);
+  const [duration, setDuration] = useState(0);
+  const [currrentProgress, setCurrrentProgress] = useState(0);
+  const [buffered, setBuffered] = useState(0);
+  const [volume, setVolume] = useState(0.2);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const durationDisplay = formatDurationDisplay(duration);
   const elapsedDisplay = formatDurationDisplay(currrentProgress);
 
-  React.useEffect(() => {
+  useEffect(() => {
     audioRef.current?.pause();
 
     const timeout = setTimeout(() => {
@@ -79,9 +71,7 @@ export default function AudioPlayer({
     }
   };
 
-  const handleBufferProgress: React.ReactEventHandler<HTMLAudioElement> = (
-    e
-  ) => {
+  const handleBufferProgress = (e) => {
     const audio = e.currentTarget;
     const dur = audio.duration;
     if (dur > 0) {
@@ -110,7 +100,7 @@ export default function AudioPlayer({
     }
   };
 
-  const handleVolumeChange = (volumeValue: number) => {
+  const handleVolumeChange = (volumeValue) => {
     if (!audioRef.current) return;
     audioRef.current.volume = volumeValue;
     setVolume(volumeValue);

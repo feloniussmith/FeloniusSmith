@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
 import ReactMarkdown from 'react-markdown';
-import Player from '../components/Player.tsx';
+import Player from '../components/Player';
 
 const MusicComponent = ({ fields }) => {
   const { music } = fields

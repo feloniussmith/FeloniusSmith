@@ -1,15 +1,7 @@
 import React from 'react';
 import styles from '../Styles/Pages.module.scss';
 
-interface VolumeInputProps {
-  volume: number;
-  onVolumeChange: (volume: number) => void;
-}
-
-export default function VolumeInput({
-  volume,
-  onVolumeChange,
-}: VolumeInputProps) {
+function VolumeInput({ volume, onVolumeChange }) {
   return (
     <input
       aria-label="volume"
@@ -26,3 +18,5 @@ export default function VolumeInput({
     />
   );
 }
+
+export default VolumeInput;

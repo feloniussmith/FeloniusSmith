@@ -1,3 +1,4 @@
+// This webpack config is used to compile the JS for the CMS
 const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -13,23 +14,14 @@ module.exports = {
     path: path.resolve(__dirname, '../public/admin/'),
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.ts', '.tsx'], // Include .ts and .tsx extensions
     fallback: {
-      path: require.resolve('path-browserify'),
-    },
+        "path": require.resolve("path-browserify")
+    }
   },
   mode,
   stats: { warnings: false, children: false },
   module: {
     rules: [
-      {
-        test: /\.(js|jsx|ts|tsx)$/, // Include .ts and .tsx files
-        exclude: /node_modules/,
-        loader: 'ts-loader', // Use ts-loader for TypeScript files
-        options: {
-          transpileOnly: true, // Set transpileOnly to true to speed up the build process
-        },
-      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -37,7 +29,7 @@ module.exports = {
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
           plugins: [
-            '@babel/plugin-proposal-private-property-in-object',
+            "@babel/plugin-proposal-private-property-in-object",
             '@babel/plugin-proposal-object-rest-spread',
             '@babel/plugin-proposal-class-properties',
           ],
