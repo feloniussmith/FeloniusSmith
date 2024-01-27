@@ -126,6 +126,16 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Embed, name: embed, widget: string, required: false}
               - {label: Body, name: body, widget: markdown}
               - {label: Reviews, name: reviews, widget: markdown, required: false}
+              - label: Playlist
+              name: playlist
+              widget: list
+              fields:
+                - { label: Name, name: name, widget: string }
+                - { label: Albumcover, name: albumcover, widget: file }
+                - { label: Songs, name: songs, widget: list, fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Source, name: source, widget: file }
+                }
 
   - name: "settings"
     label: "Settings"

@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from '../Styles/Home.module.scss';
 import IMG from '../Images/jeffSmith1.png';
-
+import Player from '../components/Player.tsx';
 const HomeComponent = ({ fields }) => {
   const { text1, text, author, musictext, musicsubtext, embed } = fields;
 
   return (
     <>
     <div className={styles.mainText}>
+      <Player />
       <h1>{text1}</h1>
     </div>
     <div className={styles.homeContainer}>
@@ -32,7 +33,6 @@ const HomeComponent = ({ fields }) => {
       </div>
 
       <iframe className={styles.media} allow="autoplay *; encrypted-media *;" frameborder="0" height="450" title="music" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={embed}></iframe>
-
     </div>
     </>
   );
