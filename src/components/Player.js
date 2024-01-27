@@ -13,7 +13,7 @@ const Player = ({ name, cover, songs }) => {
     <div className={styles.first}>
       <div className={styles.second}>
         <div className={styles.audioPlayerHeader}>
-          <img src={cover} className={styles.albumCover} />
+          <img src={cover} className={styles.albumCover} alt={`${name} cover`} />
           <div className={styles.column}>
             <h1 className={styles.third}><b>{name}</b></h1>
             <h1 className={styles.third}>Felonius Smith</h1>
