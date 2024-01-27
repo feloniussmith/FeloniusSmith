@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from '../Styles/Pages.module.scss'
+import ReactMarkdown from 'react-markdown';
 
 const CalendarComponent = ({ fields }) => {
-  const { title, description, events } = fields
+  const { title, body, events } = fields
 
   const Events = (events) => {
     return (
@@ -27,7 +28,7 @@ const CalendarComponent = ({ fields }) => {
     <div className={styles.calendar}>
       <div className={styles.calendarHeader}>
         <h1 className={styles.title}>{title}</h1>
-        <p className={styles.description}>{description}</p>
+        <p className={styles.description}><ReactMarkdown>{body}</ReactMarkdown></p>
       </div>
       <div className={styles.calendarContainer}>
         {Events(events)}

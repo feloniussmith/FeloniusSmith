@@ -1,4 +1,5 @@
 ---
+title: Music
 music:
   - title: BUCKING THE BLUES (2018)
     embed: https://embed.music.apple.com/us/album/bucking-the-blues/1417351829?app=music
@@ -118,3 +119,4 @@ music:
       > — John Toebbe, Director, Colorado Blues Society
     embed: ""
 ---
+The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
