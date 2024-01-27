@@ -23,7 +23,9 @@
     "sitemap-static": "^0.4.4",
     "snazzy": "^8.0.0",
     "style-loader": "^3.3.3",
-    "sw-precache": "^5.2.0"
+    "sw-precache": "^5.2.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@researchgate/react-intersection-observer": "^1.0.1",
