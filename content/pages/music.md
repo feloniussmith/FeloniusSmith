@@ -127,5 +127,32 @@ music:
     embed: ""
     name: Hoolay Moolay
     albumcover: /images/uploads/morb.png
+    songs:
+      - title: Big Road Blues
+        source: /images/uploads/hm-02-big-road-blues.mp3
+      - title: You Can't Get That Stuff No More
+        source: /images/uploads/hm-03-you-can-t-get-that-stuff-no-more.mp3
+      - title: Tribute To Mississippi Fred McDowell
+        source: /images/uploads/hm-04-tribute-to-mississippi-fred-mcdowell.mp3
+      - title: You Can Love Yourself
+        source: /images/uploads/hm-05-you-can-love-yourself.mp3
+      - title: Things About Coming My Way
+        source: /images/uploads/hm-06-things-about-coming-my-way.mp3
+      - title: Fixin' To Die Blues
+        source: /images/uploads/hm-07-fixin-to-die-blues.mp3
+      - title: One For Me
+        source: /images/uploads/hm-08-one-for-me.mp3
+      - title: Bon Temps Roulet
+        source: /images/uploads/hm-09-bon-temps-roulet.mp3
+      - title: You Missed A Good Man
+        source: /images/uploads/hm-10-you-missed-a-good-man.mp3
+      - title: Make Me A Pallet On Your Floor
+        source: /images/uploads/hm-11-make-me-a-pallet-on-your-floor.mp3
+      - title: Savannah Mama
+        source: /images/uploads/hm-12-savannah-mama.mp3
+      - title: Mojo
+        source: /images/uploads/hm-13-mojo.mp3
+      - title: Mind Your Own Business
+        source: /images/uploads/hm-14-mind-your-own-business.mp3
 ---
 The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
