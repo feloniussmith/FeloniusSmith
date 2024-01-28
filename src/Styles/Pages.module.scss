@@ -300,6 +300,311 @@ a:hover {
 }
 
 .menuItem {
-  color: #003d4c;
+  color: #1a1d23;
   text-decoration: none;
+}
+
+
+
+// Audio Player
+.first {
+  float: left;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f8f8fa;
+  color: #1a1d23;
+  border-radius: 10px;
+  max-width: 15vw;
+  min-width: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.second {
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex: 1;
+}
+
+.audioPlayerHeader {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  // background-color: turquoise;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.albumCover {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.third {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #1a1d23;
+  margin-bottom: -5px;
+}
+
+.thirdSub {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #858589;
+  margin-bottom: -5px;
+}
+
+.twentytwo {
+  list-style: none;
+}
+
+.outerScrollableContainer {
+  position: relative;;
+}
+
+.scrollableContainer {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  position: relative;
+  scrollbar-color: transparent transparent;
+}
+
+.gradientCover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%; /* Adjust this as needed */
+  background: linear-gradient(to top,#f8f8fa, transparent);
+  pointer-events: none; /* Allows click events to pass through to the scrollable content */
+}
+
+.fourth {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  // margin-bottom: 1rem;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #eaeaec;
+  color: #1a1d23;
+  &:hover {
+    background-color: #e6e6e8;
+    border-bottom: 1px solid #f8f8fa;
+    border-radius: 10px;
+    color: #1a1d23;
+  }
+}
+
+.fourthActive {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  padding: 1rem;
+  // margin-bottom: 1rem;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f8f8fa;
+  color: #1a1d23;
+  background-color: #e6e6e8;
+  color: #1a1d23;
+}
+
+.fifth {
+  // margin-bottom: 0.25rem;
+  // background-color: turquoise;
+  h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.sixth {
+  font-size: 1.25rem;
+  color: #858589;
+  font-weight: 500;
+  // background-color: red;
+}
+
+.seventh {
+  display: flex;
+  align-self: center;
+  flex: 1;
+  font-size: 14px;
+  margin-top: 0.7rem;
+  // background-color: rgb(53, 13, 123);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+.eighth {
+  margin-top: auto;
+}
+
+// Audio Progress Bar
+
+.ninth {
+  position: absolute;
+  height: 1px;
+  top: -4px;
+  left: 0;
+  right: 0;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+
+}
+
+.tenth {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  appearance: none;
+  cursor: pointer;
+  background-color: #e1e1e5;
+  height: 3px;
+  &.before,
+  &.after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f6e05e; 
+  }
+
+  &.after {
+    background-color: rgba(#f6e05e, 0.5);
+  }
+}
+
+// VolumeInput.tsx
+
+.eleventh {
+  width: 80px;
+  margin: 0;
+  height: 2px;
+  border-radius: 1rem;
+  background-color: #bbbbbb;
+  color: #1a1d23;
+  appearance: none;
+  cursor: pointer;
+}
+
+// AudioPlayer.tsx
+
+.twelth {
+  border-radius: 20px;
+  // background-color: #f8f8fa; // Adjust with your color variable
+  // background-color: red;
+  color: #1a1d23; // Adjust with your color variable
+  padding: 0.75rem; // Adjust according to your needs
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thirteenth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+//
+.fourteenth {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.fifteenth {
+  color: #1a1d23; 
+  font-weight: 500;
+}
+
+.sixteenth {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  // background-color: brown;
+  color: #858589;
+}
+
+.seventeenth {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-top: 1rem; 
+}
+//
+.eighteenth {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+  justify-self: center;
+  // background-color: red;
+}
+
+.ninteenth {
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  animation: spin infinite linear;
+}
+
+.twenty {
+  display: flex;
+  gap: 0.75rem; 
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.twentyone {
+  border: 1px solid #f8f8fa;
+  border-radius: 9999px; // Equivalent to Tailwind's 'rounded-full'
+  display: flex;
+  width: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8fa;
+  focus: {
+    outline: none;
+    ring: {
+      width: 2px;
+      color: #1a1d23; // Adjust with your color variable
+      offset: 2px;
+    }
+  }
+  &:disabled {
+    opacity: 0.6;
+  }
 }
