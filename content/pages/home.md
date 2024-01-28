@@ -10,7 +10,7 @@ text: “ABOUT AS DOWN-HOME as they come, Felonius Smith demonstrates a tremendo
 author: Sarah Quelland, San Jose Metro
 musictext: Our latest Live In Concert CD "Buckling The Blues" is HERE!
 musicsubtext: "Listen to it and more Felonius Smith music, below:"
-name: Buckling Blues
+name: Buckling The Blues
 albumcover: /images/uploads/feloni.jpg
 embed: https://embed.music.apple.com/us/album/bucking-the-blues/1417351829?app=music
 songs:
