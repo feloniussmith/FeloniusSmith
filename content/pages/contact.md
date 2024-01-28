@@ -30,6 +30,8 @@ images:
     description: contact-8
   - image: /images/uploads/contact-4.jpg
     description: contact-4
+  - image: /images/uploads/triple-shot-2.5.jpg
+    description: triple-shot
   - image: /images/uploads/contact-10.jpg
     description: contact-10
   - image: /images/uploads/contact-23.jpg
