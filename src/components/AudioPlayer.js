@@ -5,7 +5,7 @@ import React, { useRef, useState, useEffect } from 'react';
 // } from 'react-icons/md';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faForward, faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
-import { CgSpinner } from 'react-icons/cg';
+// import { CgSpinner } from 'react-icons/cg';
 import IconButton from './IconButton';
 import AudioProgressBar from './AudioProgressBar';
 // import VolumeInput from './VolumeInput';
