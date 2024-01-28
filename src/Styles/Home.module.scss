@@ -82,6 +82,16 @@ body {
   }
 }
 
+.player {
+  display: flex;
+  // background-color: red;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-bottom: 6rem;
+}
+
 
 
 // .container {
