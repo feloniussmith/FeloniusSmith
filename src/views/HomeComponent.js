@@ -4,7 +4,7 @@ import styles from '../Styles/Home.module.scss';
 import IMG from '../Images/jeffSmith1.png';
 import Player from '../components/Player';
 const HomeComponent = ({ fields }) => {
-  const { text1, text, author, musictext, musicsubtext, embed, name, albumcover, songs } = fields;
+  const { text1, text, author, musictext, musicsubtext, name, albumcover, songs } = fields;
 
   return (
     <>
