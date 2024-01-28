@@ -24,14 +24,12 @@ images:
     description: contact-11
   - image: /images/uploads/contact-19.jpg
     description: contact-19
-  - image: /images/uploads/contact-24.jpg
-    description: contact-24
+  - image: /images/uploads/triple-shot-2.5.jpg
+    description: triple-shot
   - image: /images/uploads/contact-8.jpg
     description: contact-8
   - image: /images/uploads/contact-4.jpg
     description: contact-4
-  - image: /images/uploads/triple-shot-2.5.jpg
-    description: triple-shot
   - image: /images/uploads/contact-10.jpg
     description: contact-10
   - image: /images/uploads/contact-23.jpg
@@ -40,27 +38,30 @@ images:
     description: contact-2
   - image: /images/uploads/contact-13.jpg
     description: contact-13
-  - image: /images/uploads/contact-14.jpg
-    description: contact-14
   - image: /images/uploads/contact-15.jpg
     description: contact-15
   - image: /images/uploads/contact-20.jpg
     description: contact-20
-  - image: /images/uploads/contact-17.jpg
-    description: contact-17
-  - image: /images/uploads/contact-18.jpg
-    description: contact-18
   - image: /images/uploads/contact-6.jpg
     description: contact-6
   - image: /images/uploads/contact-16.jpg
     description: contact-16
+  - image: /images/uploads/contact-3.jpg
+    description: contact-3
+dividetext: Photo Archives (previous members)
+images2:
+  - image: /images/uploads/contact-24.jpg
+    description: contact-24
+  - image: /images/uploads/contact-14.jpg
+    description: contact-14
+  - image: /images/uploads/contact-17.jpg
+    description: contact-17
+  - image: /images/uploads/contact-18.jpg
+    description: contact-18
   - image: /images/uploads/contact-21.jpg
     description: contact-21
   - image: /images/uploads/contact-22.jpg
     description: contact-22
-  - image: /images/uploads/contact-3.jpg
-    description: contact-3
   - image: /images/uploads/contact-12.jpg
     description: contact-12
-email: felonius@feloniussmith.com
 ---
