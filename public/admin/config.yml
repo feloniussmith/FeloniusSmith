@@ -78,7 +78,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "calendar-page"
         fields:
           - {label: Title, name: title, widget: string}
-          - { label: Body, name: body, widget: text }
+          - {label: Body, name: body, widget: text }
           - label: Events
             name: events
             widget: list
@@ -134,8 +134,8 @@ collections: # A list of collections the CMS should be able to edit
               # - {label: Embed, name: embed, widget: string, required: false}
               - {label: Body, name: body, widget: markdown}
               - {label: Reviews, name: reviews, widget: markdown, required: false}
-              - { label: Name, name: name, widget: string }
-              - { label: Albumcover, name: albumcover, widget: file }
+              - {label: Album Name, name: albumname, widget: string }
+              - {label: Albumcover, name: albumcover, widget: file }
               - name: songs
                 label: Songs
                 widget: list

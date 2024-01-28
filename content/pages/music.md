@@ -2,7 +2,6 @@
 title: Music
 music:
   - title: BUCKING THE BLUES (2018)
-    embed: https://embed.music.apple.com/us/album/bucking-the-blues/1417351829?app=music
     body: >-
       Finally, a new Felonius Smith Trio album which captures the magic of our
       live performances! This is our first CD recorded Live-In-Concert, and our
@@ -95,7 +94,6 @@ music:
 
 
       Consider choosing the physical CD because the sound quality is the best available, the artwork is so cool, and because it's in a Zero Carbon Footprint Package! That's 100% Green Forestry cardboard, all vegetable inks, 100% post-consumer recycled tray, and carbon offset credits for entire package, CD, and shipping to the artist!
-    embed: https://embed.music.apple.com/us/album/before-that-rooster-crows/897714054?app=music
     reviews: >-
       > “If you think traditional Blues can’t stay true to the past and still be
       totally fresh then you must not have heard Jeff “Felonius” Smith and his
@@ -181,7 +179,6 @@ music:
       >
 
       > — John Toebbe, Director, Colorado Blues Society
-    embed: ""
     name: Hoolay Moolay
     albumcover: /images/uploads/morb.png
     songs:
