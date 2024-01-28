@@ -168,7 +168,8 @@ export default function AudioPlayer({
             size="lg"
           >
             {!isReady && currentSong ? (
-              <CgSpinner size={24} className={styles.ninteenth} />
+              // <CgSpinner size={24} className={styles.ninteenth} />
+              <FontAwesomeIcon icon={faPause} size="2x" />
             ) : isPlaying ? (
               <FontAwesomeIcon icon={faPause} size="2x" />
             ) : (
