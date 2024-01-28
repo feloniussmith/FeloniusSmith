@@ -97,9 +97,17 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Top Text, name: text1, widget: markdown}
           - {label: Review Text, name: text, widget: markdown}
           - {label: Review Author, name: author, widget: string}
-          - {label: Embed, name: embed, widget: string}
+          # - {label: Embed, name: embed, widget: string}
           - {label: Music Text, name: musictext, widget: string}
           - {label: Music Sub-Text, name: musicsubtext, widget: string}
+          - { label: Name, name: name, widget: string }
+          - { label: Albumcover, name: albumcover, widget: file }
+          - name: songs
+            label: Songs
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Source, name: source, widget: file }
 
       - file: "content/pages/videos.md"
         label: "Video Page"
@@ -123,7 +131,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Embed, name: embed, widget: string, required: false}
+              # - {label: Embed, name: embed, widget: string, required: false}
               - {label: Body, name: body, widget: markdown}
               - {label: Reviews, name: reviews, widget: markdown, required: false}
               - { label: Name, name: name, widget: string }

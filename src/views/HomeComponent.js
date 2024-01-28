@@ -2,8 +2,9 @@ import React from 'react';
 import styles from '../Styles/Home.module.scss';
 // import ReactMarkdown from 'react-markdown';
 import IMG from '../Images/jeffSmith1.png';
+import Player from '../components/Player';
 const HomeComponent = ({ fields }) => {
-  const { text1, text, author, musictext, musicsubtext, embed } = fields;
+  const { text1, text, author, musictext, musicsubtext, embed, name, albumcover, songs } = fields;
 
   return (
     <>
@@ -30,8 +31,8 @@ const HomeComponent = ({ fields }) => {
             {musicsubtext}
         </div>
       </div>
-
-      <iframe className={styles.media} allow="autoplay *; encrypted-media *;" frameborder="0" height="450" title="music" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={embed}></iframe>
+      <Player name={name} cover={albumcover} songs={songs} />
+      {/* <iframe className={styles.media} allow="autoplay *; encrypted-media *;" frameborder="0" height="450" title="music" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={embed}></iframe> */}
     </div>
     </>
   );

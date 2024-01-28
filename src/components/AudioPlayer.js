@@ -1,16 +1,14 @@
 import React, { useRef, useState, useEffect } from 'react';
-import {
-  MdPlayArrow,
-  MdPause,
-  MdSkipNext,
-  MdSkipPrevious,
-  MdVolumeUp,
-  MdVolumeOff,
-} from 'react-icons/md';
+// import {
+//   MdPlayArrow,
+//   MdPause,
+// } from 'react-icons/md';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faForward, faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 import { CgSpinner } from 'react-icons/cg';
 import IconButton from './IconButton';
 import AudioProgressBar from './AudioProgressBar';
-import VolumeInput from './VolumeInput';
+// import VolumeInput from './VolumeInput';
 import styles from '../Styles/Pages.module.scss';
 
 function formatDurationDisplay(duration) {
@@ -90,21 +88,21 @@ export default function AudioPlayer({
     }
   };
 
-  const handleMuteUnmute = () => {
-    if (!audioRef.current) return;
+  // const handleMuteUnmute = () => {
+  //   if (!audioRef.current) return;
 
-    if (audioRef.current.volume !== 0) {
-      audioRef.current.volume = 0;
-    } else {
-      audioRef.current.volume = 1;
-    }
-  };
+  //   if (audioRef.current.volume !== 0) {
+  //     audioRef.current.volume = 0;
+  //   } else {
+  //     audioRef.current.volume = 1;
+  //   }
+  // };
 
-  const handleVolumeChange = (volumeValue) => {
-    if (!audioRef.current) return;
-    audioRef.current.volume = volumeValue;
-    setVolume(volumeValue);
-  };
+  // const handleVolumeChange = (volumeValue) => {
+  //   if (!audioRef.current) return;
+  //   audioRef.current.volume = volumeValue;
+  //   setVolume(volumeValue);
+  // };
 
   return (
     <div className={styles.twelth}>
@@ -143,13 +141,13 @@ export default function AudioPlayer({
         }}
       />
 
-      <div className={styles.thirteenth}>
+      {/* <div className={styles.thirteenth}>
         <div className={styles.fourteenth}>
           <p className={styles.fifteenth}>
             {currentSong?.title ?? 'Select a song'}
           </p>
         </div>
-      </div>
+      </div> */}
       <div className={styles.seventeenth}>
         <span className={styles.sixteenth}>
           {elapsedDisplay} / {durationDisplay}
@@ -161,7 +159,7 @@ export default function AudioPlayer({
             aria-label="go to previous"
             intent="secondary"
           >
-            <MdSkipPrevious size={24} />
+            <FontAwesomeIcon icon={faForward} size="lg" className="fa-flip-horizontal" />
           </IconButton>
           <IconButton
             disabled={!isReady}
@@ -172,9 +170,9 @@ export default function AudioPlayer({
             {!isReady && currentSong ? (
               <CgSpinner size={24} className={styles.ninteenth} />
             ) : isPlaying ? (
-              <MdPause size={30} />
+              <FontAwesomeIcon icon={faPause} size="2x" />
             ) : (
-              <MdPlayArrow size={30} />
+              <FontAwesomeIcon icon={faPlay} size="2x" />
             )}
           </IconButton>
           <IconButton
@@ -183,11 +181,11 @@ export default function AudioPlayer({
             aria-label="go to next"
             intent="secondary"
           >
-            <MdSkipNext size={24} />
+            <FontAwesomeIcon icon={faForward} size="lg" />
           </IconButton>
         </div>
 
-        <div className={styles.twenty}>
+        {/* <div className={styles.twenty}>
           <IconButton
             intent="secondary"
             size="sm"
@@ -201,7 +199,7 @@ export default function AudioPlayer({
             )}
           </IconButton>
           <VolumeInput volume={volume} onVolumeChange={handleVolumeChange} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
