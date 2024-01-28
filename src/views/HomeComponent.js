@@ -4,7 +4,7 @@ import styles from '../Styles/Home.module.scss';
 import IMG from '../Images/jeffSmith1.png';
 import Player from '../components/Player';
 const HomeComponent = ({ fields }) => {
-  const { text1, text, author, musictext, musicsubtext, name, albumcover, songs } = fields;
+  const { text1, text, author, musictext, musicsubtext, albumname, albumcover, songs } = fields;
 
   return (
     <>
@@ -32,7 +32,7 @@ const HomeComponent = ({ fields }) => {
         </div>
       </div>
       <div className={styles.player}>
-        <Player name={name} cover={albumcover} songs={songs} />
+        <Player name={albumname} cover={albumcover} songs={songs} />
       </div>
       {/* <iframe className={styles.media} allow="autoplay *; encrypted-media *;" frameborder="0" height="450" title="music" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={embed}></iframe> */}
     </div>
