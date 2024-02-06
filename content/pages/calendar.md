@@ -1,7 +1,5 @@
 ---
 title: Upcoming Events
-body: 2023 - all shows FELONIUS SMITH TRIO, no cover charge, except as
-  noted. Delta Slide Guitar Blues from Boulder, Colorado
 events:
   - date: Friday, August 4, 8:00pm - 11:00pm
     title: FELONIUS SMITH TRIO
@@ -51,4 +49,11 @@ events:
     phonenumber: 720-938-7285 CALL/TEXT For Reservation!
     address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
     website: https://www.bococider.com
+  - date: Sunday, April 21, 4:00pm - 6:00pm
+    title: FELONIUS SMITH TRIO
+    location: BOCO Cider
+    phonenumber: 720-938-7285 CALL/TEXT For Reservation!
+    address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
+    website: https://www.bococider.com
 ---
+2023 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
