@@ -1,13 +1,13 @@
 ---
 title: Felonius Smith Press Kit
 presskitItems:
-  - text: Big Rock Blues
+  - text: Big Road Blues
     pressKitItemFile: /images/uploads/big-road-blues-1-.mp3
   - text: Biographies
     pressKitItemFile: /images/uploads/bio-sheet-2023.pdf
   - text: You Can't Get That Stuff No More
     pressKitItemFile: /images/uploads/you-can-t-get-that-stuff-no-more.mp3
-  - text: Reccomendations
+  - text: Recommendations
     pressKitItemFile: /images/uploads/felonius-recommendations.pdf
   - text: Felonius Smith One Sheet
     pressKitItemFile: /images/uploads/one-sheet-2023.pdf
@@ -25,7 +25,10 @@ presskitItems:
     pressKitItemFile: /images/uploads/felonius-venues-2023.pdf
 ElectronicPressKitText: Electronic Press Kit
 performanceVenue: Performance Venue
-SubDownloadPressKitLink: ""
+downloadPressKit:
+  DownloadPressKitText: Download complete Felonius Smith Electronic Press Kit (zipped folder, 26 MB)
+  DownloadPressKitLink: /images/uploads/felonius-epk-2-.zip
+SubDownloadPressKitLink: " "
 performanceVenues:
   FairsFestivals:
     - venue: Evergreen Jazz Festival
@@ -96,9 +99,6 @@ performanceVenues:
     - venue: KGNU Radio Kabaret concerts
       location: 88.5 FM Boulder, CO
 DownloadPressKitLink: "Download the complete Felonius Smith Electronic Press Kit "
-downloadPressKit:
-  DownloadPressKitText: Download complete Felonius Smith Electronic Press Kit (zipped folder, 26 MB)
-  DownloadPressKitLink: /images/uploads/felonius-epk-2-.zip
 ---
 **Felonius Smith Trio** performs prewar blues music at its most authentic - taking us back to a time when original bluesmen were pioneering a new musical style.
 Drawing his inspiration from the songs and styles of artists like Tampa Red and Fred McDowell, ***Felonius Smith’s*** National slide and snappy finger picking guitar style transports one back some 80 years, relaxing on a river bank in southern Mississippi.
