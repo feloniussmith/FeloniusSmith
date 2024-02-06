@@ -8,9 +8,9 @@ text: “ABOUT AS DOWN-HOME as they come, Felonius Smith demonstrates a tremendo
   “Felonius Smith” makes his playing seem as easy as a lazy afternoon on the
   front porch of some old Smoky Mountain retreat.”
 author: Sarah Quelland, San Jose Metro
-musictext: Our latest Live In Concert CD "Buckling The Blues" is HERE!
+musictext: Our latest Live In Concert CD "Bucking The Blues" is HERE!
 musicsubtext: "Listen to it and more Felonius Smith music, below:"
-albumname: Buckling The Blues
+albumname: Bucking The Blues
 albumcover: /images/uploads/feloni.jpg
 songs:
   - title: Prodigal Son
