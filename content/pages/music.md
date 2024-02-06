@@ -1,5 +1,6 @@
 ---
 title: Music
+body: The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
 music:
   - title: BUCKING THE BLUES (2018)
     body: >-
@@ -180,7 +181,7 @@ music:
 
       > — John Toebbe, Director, Colorado Blues Society
     name: Hoolay Moolay
-    albumcover: /images/uploads/morb.png
+    albumcover: /images/uploads/Hoolay-cover.jpg
     songs:
       - title: Big Road Blues
         source: /images/uploads/hm-02-big-road-blues.mp3
