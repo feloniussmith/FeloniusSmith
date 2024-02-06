@@ -1,16 +1,15 @@
 ---
 title: Contact Info
 description: >-
-  Using National resonator guitars, harmonica and stand-up bass, Jeff “Felonius
-  Smith” has developed a powerful sound reminiscent of the colorful tones
-  created by the great Southern bottleneck blues players from the 1920’s and
-  1930’s.
+  Using National resonator guitars, harmonica and stand-up bass, Jeff “Felonius"
+  Smith has developed a powerful sound reminiscent of the colorful tones created
+  by the great Southern bottleneck blues players from the 1920’s and 1930’s.
 
 
   He and his trio are available for festivals, concerts, private parties, and other special events – and Felonius also enjoys bringing the tradition of the blues’ heritage to schools in the community. He speaks about and performs examples of the history of blues guitar, providing students with insight into the times and circumstances of the old bluesmen and their songs – as well as the fascinating history of their often-preferred National (resophonic) guitar.
 
 
-  For bookings...inquiries, to order CD's, or to join...contact: Jeff “Felonius Smith” [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com)
+  For bookings, inquiries, to order CD's, or to join our email list, contact: Jeff “Felonius" Smith [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com)
 images:
   - image: /images/uploads/contact-1.jpg
     description: contact-1
