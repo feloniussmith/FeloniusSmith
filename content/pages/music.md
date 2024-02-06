@@ -1,6 +1,5 @@
 ---
 title: Music
-body: The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
 music:
   - title: BUCKING THE BLUES (2018)
     body: >-
@@ -17,30 +16,7 @@ music:
 
 
       We chose to reduce our environmental footprint on this project with a simple CD sleeve packaging. Click [HERE](https://feloniussmith.com/files/BuckLinerNotes2018.pdf) to view complete liner notes for all the details about the songs, instruments, plus art and production credits.
-    reviews: >-
-      > “If you think traditional Blues can’t stay true to the past and still be
-      totally fresh then you must not have heard Jeff “Felonius” Smith and his
-      new album “Before That Rooster Crows”. It clearly proves that you don’t
-      have to sound dated to respect and celebrate the great music of the past.”
-
-      >
-
-      > *– Marc Applegate, Host of “The Nine O’clock Blues” on KUNC 91.5FM* 
-
-
-      > “Felonius has long been a...proponent of older blues styles and his love of that music shines like a searchlight at a car lot on a cloudy night, with fluid slide and delicate finger picking.
-
-      >
-
-      > Jeff “Felonius” Smith and his cohorts serve up a baker’s dozen blues tunes in pre-WWII style, including six originals, and the emphasis is on fun....
-
-      >
-
-      > This disk was clearly a labor of love that will appeal to blues fans who enjoy unamplified music played on the porch or street corner...Count me in. ”
-
-      >
-
-      > *– Jim Primock, for Colorado Blues Society’s Holler newsletter, Oct.-Nov. 2014*
+    reviews: ""
     songs:
       - title: Prodigal Son
         source: /images/uploads/bb-01-prodigal-son.mp3
@@ -76,6 +52,7 @@ music:
         source: /images/uploads/bb-16-statesboro-blues.mp3
     name: Bucking The Blues
     albumcover: /images/uploads/feloni.jpg
+    albumname: Bucking The Blues
   - title: BEFORE THAT ROOSTER CROWS (2014)
     body: >-
       “Before That Rooster Crows” is Felonius Smith’s second Colorado CD
@@ -149,6 +126,7 @@ music:
         source: /images/uploads/btr-12-old-man-mose.mp3
       - title: All New Dupree's Diamond Blues
         source: /images/uploads/btr-13-all-new-dupree-s-diamond-blues.mp3
+    albumname: Before That Rooster Crows
   - title: HOOLAY MOOLAY (2007)
     body: >-
       Felonius Smith’s third CD release, “Hoolay Moolay”, is his first since
@@ -209,5 +187,6 @@ music:
         source: /images/uploads/hm-13-mojo.mp3
       - title: Mind Your Own Business
         source: /images/uploads/hm-14-mind-your-own-business.mp3
+    albumname: Hoolay Moolay
 ---
 The best sound quality for our recordings is on physical CD's. Please email [felonius@feloniussmith.com](mailto:felonius@feloniussmith.com) to order. $10 each includes shipping in the continental US. CD's also available at our shows.
