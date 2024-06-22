@@ -25,5 +25,11 @@ events:
     phonenumber: 303-777-0707
     address: 1096 S Gaylord St, Denver CO 80209
     website: https://www.washparkgrille.com
+  - date: 3/35/74
+    title: Blah
+    location: ZOT
+    phonenumber: "387643"
+    address: 47 gratkjdi
+    website: blah
 ---
 2024 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
