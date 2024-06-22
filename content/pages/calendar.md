@@ -1,18 +1,6 @@
 ---
 title: Upcoming Events
 events:
-  - date: Sunday, April 21, 4:00pm - 6:00pm
-    title: FELONIUS SMITH and STEVE SHELDON Duo Show
-    location: BOCO Cider
-    phonenumber: 720-938-7285 CALL/TEXT For Reservation!
-    address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
-    website: https://www.bococider.com
-  - date: Friday, May 3, 2:00-3:00pm
-    title: FELONIUS SMITH TRIO
-    location: Private Party
-    address: Broomfield, CO - We'd love to perform at your event! See Contact Page
-    phonenumber: NA
-    website: NA
   - date: Saturday, May 11, 6:00 - 8:30pm
     title: JOHNNY JOHNSTON & FELONIUS SMITH Duo Show
     location: City Star Brewery
@@ -25,11 +13,29 @@ events:
     phonenumber: 303-777-0707
     address: 1096 S Gaylord St, Denver CO 80209
     website: https://www.washparkgrille.com
-  - date: 3/35/74
-    title: Blah
-    location: ZOT
-    phonenumber: "387643"
-    address: 47 gratkjdi
-    website: blah
+  - date: Sunday, July 28, 4:00 - 6:00pm
+    title: Frank James and Felonius Smith duo show
+    location: BOCO Cider
+    phonenumber: 720-938-7285 CALL/TEXT For Reservation!
+    address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
+    website: https://www.bococider.com
+  - date: "Thursday, August 1, "
+    title: Frank James and Felonius Smith duo show
+    address: 201 E. Simpson Street, Lafayette, CO
+    location: East Simpson Coffee Co.
+    phonenumber: 720-502-7010
+    website: https://www.eastsimpsoncoffee.com/#intro
+  - date: Friday, August 10, 6:00 - 8:30pm
+    title: Felonius Smith Trio
+    location: City Star Brewing
+    phonenumber: 970-532-7827
+    address: 321 Mountain Ave, Berthoud, CO
+    website: https://citystarbrewing.com
+  - date: Sunday, September 15, 4:00 - 6:00pm
+    title: Felonius Smith Trio
+    location: BOCO Cider
+    phonenumber: 720-938-7285 CALL/TEXT For Reservation!
+    address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
+    website: https://www.bococider.com
 ---
 2024 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
