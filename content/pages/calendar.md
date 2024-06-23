@@ -19,7 +19,7 @@ events:
     phonenumber: 720-938-7285 CALL/TEXT For Reservation!
     address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
     website: https://www.bococider.com
-  - date: "Thursday, August 1, "
+  - date: Thursday, August 1, 6:00 - 8:00pm
     title: FRANK JAMES and FELONIUS SMITH Duo Show
     address: 201 E. Simpson Street, Lafayette, CO
     location: East Simpson Coffee Co.
