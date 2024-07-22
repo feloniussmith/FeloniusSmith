@@ -25,7 +25,7 @@ events:
     location: East Simpson Coffee Co.
     phonenumber: 720-502-7010
     website: https://www.eastsimpsoncoffee.com/#intro
-  - date: Friday, August 10, 6:00 - 8:30pm
+  - date: Saturday, August 10, 6:00 - 8:30pm
     title: FELONIUS SMITH TRIO
     location: City Star Brewing
     phonenumber: 970-532-7827
