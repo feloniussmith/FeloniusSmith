@@ -1,12 +1,6 @@
 ---
 title: Upcoming Events
 events:
-  - date: Saturday, May 11, 6:00 - 8:30pm
-    title: JOHNNY JOHNSTON & FELONIUS SMITH Duo Show
-    location: City Star Brewery
-    phonenumber: 970-532-7827
-    address: 321 Mountain Ave, Berthoud CO 80513
-    website: http://citystarbrewing.com/
   - date: Saturday, June 22, 7:30pm - 10:30pm
     title: FELONIUS SMITH TRIO
     location: Wash Park Grille
@@ -37,5 +31,11 @@ events:
     phonenumber: 720-938-7285 CALL/TEXT For Reservation!
     address: "1501 Lee Hill Dr, Unit #14, Boulder, CO 80304"
     website: https://www.bococider.com
+  - date: Sunday, September 22, 2:00 - 3:00pm
+    title: Felonius Smith Trio
+    location: Mapleton Hill PorchFest - Event Noon to 4:00pm. Big fun, all ages!
+    address: "Our Porch: 429 Maxwell Ave, Boulder, CO"
+    website: https://www.mapletonhillporchfest.com
+    phonenumber: " "
 ---
 2024 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
