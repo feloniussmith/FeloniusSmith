@@ -33,7 +33,7 @@ events:
     website: https://citystarbrewing.com
   - date: Saturday, December 7, 4:00 - 7:00pm
     title: FELONIUS SMITH TRIO - GUMBO and GRITS PARTY!
-    location: Purpose Brewing - Feat. the Amazing JIMBEAUX'S CAJUN CUISINE food truck
+    location: Purpose Brewing - Feat. JIMBEAUX'S CAJUN CUISINE
     address: 4025 S. Mason Street, Fort Collins, CO
     phonenumber: 970-377-4107
     website: https://purposebrewing.com
