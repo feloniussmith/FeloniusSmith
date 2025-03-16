@@ -19,5 +19,17 @@ events:
     phonenumber: 303-666-4706
     address: 2300 Indian Peaks Trail, Lafayette, CO 80026
     website: https://indianpeaksgolf.com
+  - date: Saturday, July 26, 7:00 - 10:00pm
+    title: Felonius Smith Trio
+    location: Courtyard On Main Street, behind Bittersweet Cafe
+    phonenumber: 720-402-7422
+    address: 836 1/2 Main Street, Louisville, CO 80027
+    website: https://www.bittersweetcafes.com
+  - date: Friday, August 29, 6:00 - 8:00pm
+    title: Frank James and Felonius Smith, Duo Show
+    location: Indian Peaks Golf Course - The Peaks Bar and Grill
+    address: 2300 Indian Peaks Trail, Lafayette, CO 80026
+    website: https://indianpeaksgolf.com/the-peaks-bar-and-grill/
+    phonenumber: 303-666-4706
 ---
 2025 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
