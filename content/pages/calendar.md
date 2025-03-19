@@ -31,11 +31,5 @@ events:
     address: 2300 Indian Peaks Trail, Lafayette, CO 80026
     website: https://indianpeaksgolf.com/the-peaks-bar-and-grill/
     phonenumber: 303-666-4706
-  - title: FELONIUS SMITH TRIO
-    date: Friday, May 2, 5:00 - 7:00pm
-    location: Grimm Brothers Brewery
-    phonenumber: 970-541-2429
-    address: 815 14th St, Loveland, CO 80537
-    website: https://www.grimmbrothersbrewery.com
 ---
 2025 - all shows FELONIUS SMITH TRIO, no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
