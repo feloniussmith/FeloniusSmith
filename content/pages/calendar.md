@@ -1,7 +1,7 @@
 ---
 title: Upcoming Events
 events:
-  - date: Thursday, May 15, 6:00 - 8:00pm
+  - date: Thursday, May 8, 6:00 - 8:00pm
     title: FRANK JAMES and FELONIUS SMITH Duo Show
     location: East Simpson Coffee Co.
     phonenumber: 720-502-7010
