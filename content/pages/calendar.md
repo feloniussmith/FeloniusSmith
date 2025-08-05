@@ -14,7 +14,7 @@ events:
     website: https://indianpeaksgolf.com/the-peaks-bar-and-grill/
     phonenumber: 303-666-4706
   - date: Monday, September 1st, Labor Day, event start 4:30pm
-    title: Felonius Smith Trio - music 5-7pm
+    title: FELONIUS SMITH TRIO - music 5-7pm
     location: Sunflower Acres Farm Dinner. Info and Tix at site below
     phonenumber: 303-774-8001
     address: 1150 Prospect Rd, Longmont, CO 80504
