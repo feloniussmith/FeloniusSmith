@@ -1,12 +1,6 @@
 ---
 title: Upcoming Events
 events:
-  - date: Saturday, July 26, 7:00 - 10:00pm
-    title: FELONIUS SMITH TRIO
-    location: Courtyard On Main Street, behind Bittersweet Cafe
-    phonenumber: 720-402-7422
-    address: 836 1/2 Main Street, Louisville, CO 80027
-    website: https://www.bittersweetcafes.com
   - date: Friday, August 29, 6:00 - 8:00pm
     title: FRANK JAMES and FELONIUS SMITH, Duo Show
     location: Indian Peaks Golf Course - The Peaks Bar and Grill
