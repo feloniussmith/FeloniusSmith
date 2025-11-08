@@ -10,9 +10,12 @@ text: “ABOUT AS DOWN-HOME as they come, Felonius Smith demonstrates a tremendo
 author: Sarah Quelland, San Jose Metro
 musictext: Our latest Live In Concert CD "Bucking The Blues" is HERE!
 musicsubtext: "Listen to it and more Felonius Smith music, below:"
-albumname: Bucking The Blues
+name: " "
 albumcover: /images/uploads/feloni.jpg
+albumname: Bucking The Blues
 songs:
+  - source: /images/uploads/hm-03-you-can-t-get-that-stuff-no-more.mp3
+    title: You Can't Get That Stuff No More
   - title: Prodigal Son
     source: /images/uploads/bb-01-prodigal-son.mp3
   - title: Death Letter Blues
