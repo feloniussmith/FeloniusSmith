@@ -21,7 +21,7 @@ events:
     website: https://citystarbrewing.com
   - date: Thursday, October 29, 7:00 - 8:00pm
     title: Felonius Smith Trio
-    location: Private Seniors Community concert
+    location: Private Seniors Community concert, Boulder CO
     address: Contact Felonius to bring our music to your community!
     phonenumber: " "
     website: https://feloniussmith.com
