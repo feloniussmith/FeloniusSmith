@@ -19,6 +19,12 @@ events:
     phonenumber: (970) 532-7827
     address: 321 Mountain Avenue, Berthoud, CO 80513
     website: https://citystarbrewing.com
+  - date: Saturday, October 24,  5:00 - 7:00pm
+    title: Felonius Smith - Solo Show
+    location: Very Nice Brewing Company
+    address: 26 S. Hwy 119 (2nd Floor), Nederland, CO 80466
+    website: https://www.verynicebrewing.com
+    phonenumber: 303-582-2015
   - date: Thursday, October 29, 7:00 - 8:00pm
     title: Felonius Smith Trio
     location: Private Seniors Community concert, Boulder CO
