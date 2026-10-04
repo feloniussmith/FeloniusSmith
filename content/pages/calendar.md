@@ -13,12 +13,6 @@ events:
     phonenumber: (303) 666-4706
     address: 2300 Indian Peaks Trail, Lafayette, CO 80026
     website: https://indianpeaksgolf.com
-  - date: Friday, November 6, 6:00 - 8:30pm
-    title: Johnny Johnston and Felonius Smith Duo
-    location: City Star Brewing
-    phonenumber: (970) 532-7827
-    address: 321 Mountain Avenue, Berthoud, CO 80513
-    website: https://citystarbrewing.com
   - date: Saturday, October 24,  5:00 - 7:00pm
     title: Felonius Smith - Solo Show
     location: Very Nice Brewing Company
@@ -31,5 +25,11 @@ events:
     address: Contact Felonius to bring our music to your community!
     phonenumber: " "
     website: https://feloniussmith.com
+  - date: Friday, November 6, 6:00 - 8:30pm
+    title: Johnny Johnston and Felonius Smith Duo
+    location: City Star Brewing
+    phonenumber: (970) 532-7827
+    address: 321 Mountain Avenue, Berthoud, CO 80513
+    website: https://citystarbrewing.com
 ---
 2026 - all shows no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
