@@ -1,18 +1,6 @@
 ---
 title: Upcoming Events
 events:
-  - date: Wednesday, September 2, 2:00 - 3:30pm
-    title: Felonius Smith Trio
-    location: Private Seniors Community concert, Boulder CO
-    address: Contact Felonius to bring our music to your community!
-    phonenumber: " "
-    website: https://feloniussmith.com
-  - date: Friday, September 25, 6:00 - 8:00pm
-    title: Frank James and Felonius Smith Duo Show
-    location: Indian Peaks Golf Course
-    phonenumber: (303) 666-4706
-    address: 2300 Indian Peaks Trail, Lafayette, CO 80026
-    website: https://indianpeaksgolf.com
   - date: Saturday, October 24,  5:00 - 7:00pm
     title: Felonius Smith - Solo Show
     location: Very Nice Brewing Company
@@ -31,5 +19,17 @@ events:
     phonenumber: (970) 532-7827
     address: 321 Mountain Avenue, Berthoud, CO 80513
     website: https://citystarbrewing.com
+  - date: Friday, November 13,  6:00 - 8:00pm
+    title: Felonius Smith and Steve Sheldon Duo Show
+    location: Very Nice Brewing Co.
+    phonenumber: 303-582-2015
+    address: 180 Jankowski Drive, Black Hawk  CO 80422
+    website: https://www.verynicebrewing.com/gilpin
+  - date: "Saturday, December 5  music is 7:00 to 9:00pm "
+    address: 815 14th St SW B100, Loveland, CO 80537
+    title: Felonius Smith Trio - Prohibition Repeal Party!
+    location: Grimm Brothers Brewing
+    website: https://grimmbrothersbrewing.com
+    phonenumber: "0"
 ---
 2026 - all shows no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
