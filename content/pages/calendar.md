@@ -31,5 +31,11 @@ events:
     location: Grimm Brothers Brewing
     website: https://grimmbrothersbrewing.com
     phonenumber: "0"
+  - date: Thursday, December 31, 8:30-9:30pm
+    title: Felonius Smith Trio
+    location: Private Event. Contact Felonius for a performance at your next event.
+    phonenumber: " "
+    address: Boulder, CO
+    website: " "
 ---
 2026 - all shows no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
