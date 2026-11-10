@@ -37,5 +37,11 @@ events:
     phonenumber: " "
     address: Boulder, CO
     website: " "
+  - date: Thursday, May 6, 2027  7:00 - 8:00pm
+    title: Felonius Smith Trio
+    location: Seniors Community
+    phonenumber: " "
+    address: Boulder, CO
+    website: " "
 ---
 2026 - all shows no cover charge, except as noted. Delta Slide Guitar Blues from Boulder, Colorado
